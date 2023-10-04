@@ -1,9 +1,9 @@
 characters={
-	GER_adolf_hitler={
-		name=GER_adolf_hitler
+	GER_heinrich_class={
+		name="Heinrich Claß"
 		portraits={
 			civilian={
-				large=GFX_portrait_GER_adolf_hitler
+				large="gfx/leaders/GER/Portrait_GER_Heinrich_Class_kr.png"
 			}
 		}
 		country_leader={
@@ -32,7 +32,7 @@ characters={
 		name=GER_wilhelm_pieck
 		portraits={
 			civilian={
-				large=GFX_portrait_GER_wilhelm_pieck
+				large="gfx/leaders/GER/Portrait_GER_Wilhelm_Pieck_kr.png"
 			}
 		}
 		country_leader={
@@ -43,7 +43,7 @@ characters={
 		}
 	}
 
-	GER_wilhelm_ii={ #Empty Wilhelm II so he doesn't become ruler automatically if the neutrals are in power
+	GER_wilhelm_ii={ 
 		name=GER_wilhelm_ii
 		portraits={
 			civilian={
@@ -60,22 +60,12 @@ characters={
 		}
 	}
 
-	GER_wilhelm_iii={ #Empty Wilhelm III so he doesn't become ruler automatically if the neutrals are in power
+	GER_wilhelm_iii={ 
 		name=GER_wilhelm_iii
 		portraits={
 			civilian={
 				large="gfx/leaders/GER/Portrait_GER_Wilhelm_III_kr.png"
 			}	
-		}
-	}
-
-	GER_victoria={ #Empty Vicky3 
-		name=GER_victoria
-		gender = female 
-		portraits={
-			civilian={
-				large="GFX_portrait_ger_victoria_louise"
-			}
 		}
 	}
 
@@ -100,7 +90,7 @@ characters={
 		name=GER_gerd_von_rundstedt
 		portraits={
 			army={
-				large=GFX_portrait_GER_gerd_von_rundstedt
+				large="gfx/leaders/GER/Portrait_GER_Gerd_von_Rundstedt_kr.png"
 				small="GFX_idea_gerd_von_rundstedt"
 			}
 		}
@@ -135,12 +125,12 @@ characters={
 		name=GER_gunther_von_kluge
 		portraits={
 			army={
-				large=GFX_portrait_GER_gunther_von_kluge
+				large="gfx/leaders/GER/Portrait_GER_Gunther_Kluge_kr.png"
 				small=GFX_portrait_GER_gunther_von_kluge_small
 			}
 		}
-		field_marshal={
-			traits={ armor_officer offensive_doctrine }
+		corps_commander={
+			traits={ armor_officer career_officer }
 			skill=3
 			attack_skill=3
 			defense_skill=2
@@ -154,17 +144,17 @@ characters={
 		name=GER_friedrich_paulus
 		portraits={
 			army={
-				large=GFX_portrait_GER_friedrich_paulus
+				large="gfx/leaders/GER/Portrait_GER_Friedrich_Paulus_kr.png"
 				small=GFX_portrait_GER_friedrich_paulus_small
 			}
 		}
 		corps_commander={
-			traits={ trait_cautious armor_officer }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			traits = { infantry_officer }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
 			legacy_id=3
 		}
 	}
@@ -173,7 +163,7 @@ characters={
 		name=GER_erwin_rommel
 		portraits={
 			army={
-				large=GFX_portrait_GER_erwin_rommel
+				large="gfx/leaders/GER/Portrait_GER_Erwin_Rommel_kr.png"
 				small="GFX_idea_erwin_rommel"
 			}
 		}
@@ -211,7 +201,7 @@ characters={
 		name=GER_erich_von_manstein
 		portraits={
 			army={
-				large=GFX_portrait_GER_erich_von_manstein
+				large="gfx/leaders/GER/Portrait_GER_Erich_von_Manstein_kr.png"
 				small="GFX_idea_manstein"
 			}
 		}
@@ -243,7 +233,7 @@ characters={
 		name=GER_heinz_guderian
 		portraits={
 			army={
-				large=GFX_portrait_GER_heinz_guderian
+				large="gfx/leaders/GER/Portrait_GER_Heinz_Guderian_kr.png"
 				small="GFX_idea_heinz_guderian"
 			}
 		}
@@ -294,7 +284,7 @@ characters={
 		name=GER_ewald_von_kleist
 		portraits={
 			army={
-				large=GFX_portrait_GER_ewald_von_kleist
+				large="gfx/leaders/GER/Portrait_GER_Ewald_Kleist_kr.png"
 				small=GFX_portrait_GER_ewald_von_kleist_small
 			}
 		}
@@ -313,7 +303,7 @@ characters={
 		name=GER_fedor_von_bock
 		portraits={
 			army={
-				large=GFX_portrait_GER_fedor_von_bock
+				large="gfx/leaders/GER/Portrait_GER_Fedor_Bock_kr.png"
 				small=GFX_portrait_GER_fedor_von_bock_small
 			}
 		}
@@ -332,7 +322,7 @@ characters={
 		name=GER_walter_model
 		portraits={
 			army={
-				large=GFX_portrait_GER_walter_model
+				large="gfx/leaders/GER/Portrait_GER_Walter_Model_kr.png"
 				small=GFX_portrait_GER_walter_model_small
 			}
 		}
@@ -370,7 +360,7 @@ characters={
 		name=GER_wilhelm_ritter_von_leeb
 		portraits={
 			army={
-				large=GFX_portrait_GER_wilhelm_ritter_von_leeb
+				large="gfx/leaders/GER/Portrait_GER_Wilhelm_Ritter_von_Leeb_kr.png"
 				small=GFX_portrait_GER_wilhelm_ritter_von_leeb_small
 			}
 		}
@@ -481,7 +471,7 @@ characters={
 		name=GER_hermann_hoth
 		portraits={
 			army={
-				large=GFX_portrait_GER_hermann_hoth
+				large="gfx/leaders/GER/Portrait_GER_Hermann_Hoth_kr.png"
 				small=GFX_portrait_GER_hermann_hoth_small
 			}
 		}
@@ -557,7 +547,7 @@ characters={
 		name=GER_georg_von_kuchler
 		portraits={
 			army={
-				large=GFX_portrait_GER_georg_von_kuchler
+				large="gfx/leaders/GER/Portrait_GER_Georg_Kuchler_kr.png"
 				small=GFX_portrait_GER_georg_von_kuchler_small
 			}
 		}
@@ -635,7 +625,7 @@ characters={
 				small="GFX_idea_albert_kesselring"
 			}
 			army={
-				large=GFX_portrait_GER_albert_kesselring
+				large="gfx/leaders/GER/Portrait_GER_Albert_Kesselring_kr.png"
 			}
 		}
 		advisor={
@@ -668,7 +658,7 @@ characters={
 		name=GER_gotthard_heinrici
 		portraits={
 			army={
-				large=GFX_portrait_GER_gotthard_heinrici
+				large="gfx/leaders/GER/Portrait_GER_Gotthard_Heinrici_kr.png"
 				small=GFX_portrait_GER_gotthard_heinrici_small
 			}
 		}
@@ -724,7 +714,7 @@ characters={
 		name=GER_karl_donitz
 		portraits={
 			army={
-				large=GFX_portrait_GER_karl_donitz
+				large="gfx/leaders/GER/Portrait_GER_Karl_Donitz_kr.png"
 				small=GFX_portrait_GER_karl_donitz_small
 			}
 			army={
@@ -761,7 +751,7 @@ characters={
 		name=GER_erich_raeder
 		portraits={
 			army={
-				large=GFX_portrait_GER_erich_raeder
+				large="gfx/leaders/GER/Portrait_GER_Erich_Raeder_kr.png"
 				small=GFX_portrait_GER_erich_raeder_small
 			}
 			army={
@@ -784,7 +774,7 @@ characters={
 		}
 		
 		navy_leader={
-			traits={ battleship_adherent naval_lineage }
+			traits={ ironside naval_lineage }
 			skill=4
 			attack_skill=3
 			defense_skill=4
@@ -798,7 +788,7 @@ characters={
 		name=GER_alfred_saalwachter
 		portraits={
 			army={
-				large=GFX_portrait_GER_alfred_saalwachter
+				large="gfx/leaders/GER/Portrait_GER_Alfred_Saalwachter_kr.png"
 				small=GFX_portrait_GER_alfred_saalwachter_small
 			}
 			army={
@@ -833,16 +823,16 @@ characters={
 		name=GER_hermann_boehm
 		portraits={
 			army={
-				large=GFX_portrait_GER_hermann_boehm
+				large="gfx/leaders/GER/Portrait_GER_Hermann_Boehm_kr.png"
 				small=GFX_portrait_GER_hermann_boehm_small
 			}
 		}
 		navy_leader={
-			traits={ craven superior_tactician }
+			traits={ superior_tactician }
 			skill=4
-			attack_skill=3
+			attack_skill=4
 			defense_skill=4
-			maneuvering_skill=4
+			maneuvering_skill=3
 			coordination_skill=2
 			legacy_id=29
 		}
@@ -852,12 +842,12 @@ characters={
 		name=GER_wilhelm_marschall
 		portraits={
 			army={
-				large=GFX_portrait_GER_wilhelm_marschall
+				large="gfx/leaders/GER/Portrait_GER_Wilhelm_Marschall_kr.png"
 				small=GFX_portrait_GER_wilhelm_marschall_small
 			}
 		}
 		navy_leader={
-			traits={ old_guard_navy bold }
+			traits={ blockade_runner bold }
 			skill=4
 			attack_skill=4
 			defense_skill=2
@@ -871,7 +861,7 @@ characters={
 		name=GER_gunther_lutjens
 		portraits={
 			army={
-				large=GFX_portrait_GER_gunther_lutjens
+				large="gfx/leaders/GER/Portrait_GER_Gunther_Lutjens_kr.png"
 				small=GFX_portrait_GER_gunther_lutjens_small
 			}
 			army={
@@ -909,7 +899,7 @@ characters={
 		name = CHI_alexander_von_falkenhausen
 		portraits = {
 			army = {
-				large="GFX_portrait_chi_alexander_von_falkenhausen"
+				large="gfx/leaders/GER/Portrait_GER_Alexander_von_Falkenhausen_kr.png"
 				small="GFX_idea_CHI_alexander_von_falkenhausen" 
 			}
 		}
@@ -921,9 +911,6 @@ characters={
 			logistics_skill = 3
 			legacy_id = 603
 			traits = { infantry_officer }
-			visible = {
-				has_global_flag = falkenhausen_recalled
-			}
 		}
 	}
 
