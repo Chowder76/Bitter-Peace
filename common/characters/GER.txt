@@ -261,25 +261,6 @@ characters={
 		}
 	}
 
-	GER_wilhelm_list={
-		name=GER_wilhelm_list
-		portraits={
-			army={
-				large=GFX_portrait_GER_wilhelm_list
-				small=GFX_portrait_GER_wilhelm_list_small
-			}
-		}
-		corps_commander={
-			traits={ inflexible_strategist career_officer }
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=1
-			logistics_skill=2
-			legacy_id=7
-		}
-	}
-
 	GER_ewald_von_kleist={
 		name=GER_ewald_von_kleist
 		portraits={
@@ -326,14 +307,13 @@ characters={
 				small=GFX_portrait_GER_walter_model_small
 			}
 		}
-		field_marshal={
-			traits={ brilliant_strategist trait_cautious politically_connected defensive_doctrine }
-			skill=3
-			attack_skill=2
-			defense_skill=4
+		corps_commander = {
+			traits = { brilliant_strategist trait_cautious harsh_leader politically_connected trickster }
+			skill=4
+			attack_skill=3
+			defense_skill=5
 			planning_skill=2
-			logistics_skill=2
-			legacy_id=10
+			logistics_skill=3
 		}
 	}
 
@@ -341,7 +321,7 @@ characters={
 		name=GER_maximilian_von_weichs
 		portraits={
 			army={
-				large=GFX_portrait_GER_maximilian_von_weichs
+				large="gfx/leaders/GER/Portrait_GER_Maxmillian_von_Weichs.png"
 				small=GFX_portrait_GER_maximilian_von_weichs_small
 			}
 		}
@@ -375,49 +355,11 @@ characters={
 		}
 	}
 
-	GER_georghans_reinhardt={
-		name=GER_georghans_reinhardt
-		portraits={
-			army={
-				large=GFX_portrait_GER_georghans_reinhardt
-				small=GFX_portrait_GER_georghans_reinhardt_small
-			}
-		}
-		corps_commander={
-			traits={ trait_cautious armor_officer }
-			skill=3
-			attack_skill=1
-			defense_skill=2
-			planning_skill=4
-			logistics_skill=3
-			legacy_id=14
-		}
-	}
-
-	GER_walter_kruger={
-		name=GER_walter_kruger
-		portraits={
-			army={
-				large=GFX_portrait_GER_walter_kruger
-				small=GFX_portrait_GER_walter_kruger_small
-			}
-		}
-		corps_commander={
-			traits={ trait_reckless armor_officer politically_connected }
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=1
-			logistics_skill=3
-			legacy_id=15
-		}
-	}
-
 	GER_kurt_student={
 		name=GER_kurt_student
 		portraits={
 			army={
-				large=GFX_portrait_GER_kurt_student
+				large="gfx/leaders/GER/Portrait_GER_Kurt_Student.png"
 				small="GFX_idea_kurt_student"
 			}
 		}
@@ -452,7 +394,7 @@ characters={
 		name=GER_erwin_von_witzleben
 		portraits={
 			army={
-				large=GFX_portrait_GER_erwin_von_witzleben
+				large="gfx/leaders/GER/Portrait_GER_Erwin_von_Witzleben.png"
 				small=GFX_portrait_GER_erwin_von_witzleben_small
 			}
 		}
@@ -490,7 +432,7 @@ characters={
 		name=GER_johannes_blaskowitz
 		portraits={
 			army={
-				large=GFX_portrait_GER_johannes_blaskowitz
+				large="gfx/leaders/GER/Portrait_GER_Johannes_Blaskowitz.png"
 				small=GFX_portrait_GER_johannes_blaskowitz_small
 			}
 		}
@@ -509,7 +451,7 @@ characters={
 		name=GER_paul_hausser
 		portraits={
 			army={
-				large=GFX_portrait_GER_paul_hausser
+				large="gfx/leaders/GER/Portrait_GER_Paul_Hausser.png"
 				small=GFX_portrait_GER_paul_hausser_small
 			}
 		}
@@ -528,7 +470,7 @@ characters={
 		name=GER_friedrich_schulz
 		portraits={
 			army={
-				large=GFX_portrait_GER_friedrich_schulz
+				large="gfx/leaders/GER/Portrait_GER_Friedrich_Schulz.png"
 				small=GFX_portrait_GER_friedrich_schulz_small
 			}
 		}
@@ -561,49 +503,11 @@ characters={
 		}
 	}
 
-	GER_alfred_jodl={
-		name=GER_alfred_jodl
-		portraits={
-			army={
-				large=GFX_portrait_GER_alfred_jodl
-				small=GFX_portrait_GER_alfred_jodl_small
-			}
-		}
-		corps_commander={
-			traits={ career_officer politically_connected }
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			planning_skill=3
-			logistics_skill=3
-			legacy_id=23
-		}
-	}
-
-	GER_sepp_dietrich={
-		name=GER_sepp_dietrich
-		portraits={
-			army={
-				large=GFX_portrait_GER_sepp_dietrich
-				small=GFX_portrait_GER_sepp_dietrich_small
-			}
-		}
-		corps_commander={
-			traits={ brilliant_strategist trait_reckless armor_officer politically_connected }
-			skill=4
-			attack_skill=2
-			defense_skill=3
-			planning_skill=4
-			logistics_skill=4
-			legacy_id=24
-		}
-	}
-
 	GER_hasso_von_manteuffel={
 		name=GER_hasso_von_manteuffel
 		portraits={
 			army={
-				large=GFX_portrait_GER_hasso_von_manteuffel
+				large="gfx/leaders/GER/Portrait_GER_Hasso_von_Manteuffel.png"
 				small=GFX_portrait_GER_hasso_von_manteuffel_small
 			}
 		}
@@ -623,8 +527,6 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_albert_kesselring"
-			}
-			army={
 				large="gfx/leaders/GER/Portrait_GER_Albert_Kesselring_kr.png"
 			}
 		}
@@ -677,7 +579,7 @@ characters={
 		name=GER_ernsteberhard_hell
 		portraits={
 			army={
-				large=GFX_portrait_GER_ernsteberhard_hell
+				large="gfx/leaders/GER/Portrait_HAN_Ernst_Eberhard_Hell.png"
 				small=GFX_portrait_GER_ernsteberhard_hell_small
 			}
 		}
@@ -696,7 +598,7 @@ characters={
 		name=GER_felix_steiner
 		portraits={
 			army={
-				large="GFX_portrait_ger_felix_steiner"
+				large="gfx/leaders/GER/Portrait_GER_Felix_Martin_Steiner.png"
 				small=GFX_portrait_GER_felix_steiner_small
 			}
 		}
