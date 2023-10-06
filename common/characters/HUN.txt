@@ -51,11 +51,11 @@ characters={
 		}
 	}
 
-	HUN_otto_von_habsburg={
-		name=HUN_otto_von_habsburg
+	AUS_joseph_august_von_habsburg={
+		name="Joseph August von Habsburg"
 		portraits={
 			civilian={
-				large="gfx/leaders/HUN/Portrait_HUN_Otto_von_Habsburg.png"
+				large="gfx/leaders/HUN/Portrait_HUN_Joseph_August_von_Habsburg.png"
 			}
 		}
 		country_leader={
