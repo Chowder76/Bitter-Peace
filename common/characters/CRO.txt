@@ -1,0 +1,47 @@
+characters = {
+	CRO_stjepan_radic = {
+		name = "Stjepan Radić"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CRO/Portrait_CRO_Stjepan_Radic.png"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+		}
+	}
+	CRO_ivo_pilar = {
+		name = "Ivo Pilar"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CRO/Portrait_CRO_Ivo_Pilar.png"
+			}
+		}
+		country_leader = {
+			ideology = centrism
+		}
+	}
+	CRO_slavko_kvaternik = {
+		name = "Slavko Kvaternik"
+		portraits = {
+			army = {
+				large = "gfx/leaders/CRO/Portrait_CRO_Slavko_Kvaternik.png"
+				small = "gfx/interface/advisors/CRO/CRO_slavko_kvaternik.png"
+			}
+		}
+		field_marshal = {
+			traits = { harsh_leader organizer skilled_staffer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = CRO_slavko_kvaternik_army_chief
+			traits = { army_chief_planning_1 }
+			cost = 50
+		}
+	}
+}
