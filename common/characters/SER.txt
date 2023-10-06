@@ -1,0 +1,15 @@
+characters={
+	SER_alexander_ii={
+		name="Alexander II"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/Portrait_SER_Alexander_II.png"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}
