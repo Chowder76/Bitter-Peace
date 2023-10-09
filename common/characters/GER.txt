@@ -76,14 +76,6 @@ characters={
 				large="gfx/leaders/GER/Portrait_GER_August_Mackensen_kr.png"
 			}
 		}
-		field_marshal = {
-			traits = { old_guard offensive_doctrine }
-			skill = 4
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 3
-		}
 	}
 
 	GER_gerd_von_rundstedt={
@@ -118,6 +110,60 @@ characters={
 			planning_skill=3
 			logistics_skill=2
 			legacy_id=1
+		}
+	}
+
+	GER_alfred_von_vollard_bockelberg = {
+		name = "Alfred von Vollard-Bockelberg"
+		portraits = {
+			army = {
+				large="gfx/leaders/GER/Portrait_GER_Alfred_von_Vollard-Bockelberg.png"
+				small="gfx/interface/advisors/GER/GER_Alfred_von_Vollard-Bockelberg.png"
+			}
+		}
+		corps_commander = {
+			traits = { fortress_buster }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+		}
+	}
+	GER_kurt_von_hammerstein_equord = {
+		name = "Kurt von Hammerstein-Equord"
+		portraits = {
+			army = {
+				large="gfx/leaders/GER/Portrait_GER_Kurt_von_Hammerstein_Equord.png"
+				small="gfx/interface/advisors/GER/GER_Kurt_von_Hammerstein_Equord.png"
+			}
+		}
+		field_marshal = {
+			traits = { politically_connected brilliant_strategist defensive_doctrine }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = GER_kurt_von_hammerstein_equord_army_chief
+			available = {
+				not_already_hired_except_as = army_chief
+			}
+			traits = { army_chief_reform_2 }
+			cost = 100
+		}
+		advisor = {
+			idea_token = GER_kurt_von_hammerstein_equord_high_command
+			slot = high_command
+			ledger = army
+			available = {
+				not_already_hired_except_as = high_command
+			}
+			traits = { army_CombinedArms_3 }
+			cost = 200
 		}
 	}
 
@@ -579,8 +625,8 @@ characters={
 		name=GER_ernsteberhard_hell
 		portraits={
 			army={
-				large="gfx/leaders/GER/Portrait_HAN_Ernst_Eberhard_Hell.png"
-				small=GFX_portrait_GER_ernsteberhard_hell_small
+				large="gfx/leaders/GER/Portrait_GER_Ernst_Eberhard_Hell.png"
+				small="gfx/interface/advisors/GER/GER_ernst_eberhard_hell.png"
 			}
 		}
 		corps_commander={
@@ -877,7 +923,7 @@ characters={
 		name=GER_wolfram_von_richthofen
 		portraits={
 			army={
-				small="GFX_idea_wolfram_von_richthofen"
+				small="gfx/interface/advisors/GER/GER_Wolfram_von_Richthofen.png"
 			}
 		}
 		advisor={
@@ -939,7 +985,16 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_otto_ciliax"
+				large="gfx/leaders/GER/Portrait_GER_Otto_Ciliax.png"
 			}
+		}
+		navy_leader={
+			traits = { blockade_runner superior_tactician }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 5
+			coordination_skill = 1
 		}
 		advisor={
 			cost = 100
@@ -982,7 +1037,8 @@ characters={
 		name=GER_wilhelm_keitel
 		portraits={
 			army={
-				small="GFX_idea_wilhelm_keitel"
+				small="gfx/interface/advisors/GER/GER_wilhelm_keitel.png"
+				large="gfx/leaders/GER/Portrait_GER_Wilhelm_Keitel.png"
 			}
 		}
 		advisor={
@@ -990,9 +1046,6 @@ characters={
 			idea_token = wilhelm_keitel
 			allowed = {
 				original_tag = GER
-			}
-			available = {
-				has_government = fascism
 			}
 			traits = {
 				army_chief_drill_2
@@ -1002,46 +1055,38 @@ characters={
 				factor = 1.000
 			}
 		}		
-	}
-
-	GER_franz_halder={
-		name=GER_franz_halder
-		portraits={
-			army={
-				small="GFX_idea_franz_halder"
-			}
-		}
-		advisor={
-			slot = army_chief
-			idea_token = franz_halder
-			allowed = {
-				original_tag = GER
-			}
-			traits = {
-				army_chief_offensive_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
+		field_marshal = {
+			traits={ politically_connected expert_delegator organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 
 	GER_walther_von_brauchitsch={
-		name=GER_walther_von_brauchitsch
+		name="Walther von Brauchitsch"
 		portraits={
 			army={
-				small="GFX_idea_walther_von_brauchitsch"
+				small="gfx/interface/advisors/GER/GER_Walther_von_Brauchitsch.png"
+				large="gfx/leaders/GER/Portrait_GER_Walther_von_Brauchitsch.png"
 			}
+		}
+		field_marshal={
+			traits={ career_officer fortress_buster }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=21
 		}
 		advisor={	
 			slot = army_chief
 			idea_token = walther_von_brauchitsch
 			allowed = {
 				original_tag = GER
-			}
-			available = {
-				has_completed_focus = GER_army_innovation
 			}
 			traits = {
 				army_chief_maneuver_2
@@ -1134,36 +1179,21 @@ characters={
 
 	# Lütjens up there
 
-	GER_ferdinand_schorner={
-		name=GER_ferdinand_schorner
-		portraits={
-			army={
-				small="GFX_idea_ferdinand_schorner"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = ferdinand_schorner
-			ledger = army
-			allowed = {
-				original_tag = GER
-			}
-			traits = {
-				army_infantry_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 2.000
-			}
-		}
-	}
-
 	GER_werner_von_fritsch={
 		name=GER_werner_von_fritsch
 		portraits={
 			army={
-				small="GFX_idea_werner_von_fritsch"
+				small="gfx/interface/advisors/GER/GER_Werner_von_Fritsch.png"
+				large="gfx/leaders/GER/Portrait_GER_Werner_von_Fritsch.png"
 			}
+		}
+		corps_commander = {
+			traits = { trait_reckless infantry_officer old_guard fortress_buster infantry_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
 		}
 		advisor={
 			slot = high_command
@@ -1195,9 +1225,6 @@ characters={
 			ledger = air
 			allowed = {
 				original_tag = GER
-			}
-			available = {
-				has_completed_focus = GER_air_innovation
 			}
 			traits = {
 				air_close_air_support_2
@@ -1378,43 +1405,6 @@ characters={
 				factor = 1.000
 			}
 		}		
-	}
-
-	GER_ernst_thalmann={
-		name=GER_ernst_thalmann
-		portraits={
-			army={
-				small="GFX_idea_ernst_thalmann"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = ernst_thalmann
-			allowed = {
-				original_tag = GER
-			}
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					not = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
-			}
-			traits = {
-				communist_revolutionary 
-			}
-			do_effect = {
-				not = {
-					has_government = communism 
-				}
-			}
-			ai_will_do = {
-				factor = 0.000
-			}
-		}
 	}
 
 	GER_kurt_schumacher={
