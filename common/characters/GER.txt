@@ -1189,10 +1189,10 @@ characters={
 		}
 		corps_commander = {
 			traits = { trait_reckless infantry_officer old_guard fortress_buster infantry_leader }
-			skill = 2
-			attack_skill = 2
+			skill = 3
+			attack_skill = 3
 			defense_skill = 2
-			planning_skill = 1
+			planning_skill = 3
 			logistics_skill = 2
 		}
 		advisor={
