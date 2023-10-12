@@ -1477,7 +1477,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_GER_daimler_benz_organization"
-		texturefile = "gfx/interface/companies/GER/GER_benz.png"
+		texturefile = "gfx/interface/companies/GER/GER_daimler.png"
 	}
 	spriteType = {
 		name = "GFX_idea_germaniawerft"
@@ -1486,6 +1486,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_blohm_und_voss"
 		texturefile = "gfx/interface/ideas/idea_blohm_und_voss.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_kaiserliche_werft_wilhelmshaven"
+		texturefile = "gfx/interface/companies/GER/GER_kaiserliche_werft_wilhelmshaven.png"
 	}
 	spriteType = {
 		name = "GFX_idea_krupp"
@@ -8049,19 +8053,19 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_CZE_ckd"
-		texturefile = "gfx/interface/ideas/idea_cze_ckd.dds"
+		texturefile = "gfx/interface/companies/CZE/CZE_ckd.png"
 	}
 	spriteType = {
 		name = "GFX_idea_CZE_skoda_artillery"
-		texturefile = "gfx/interface/ideas/idea_cze_skoda_artillery.dds"
+		texturefile = "gfx/interface/companies/CZE/CZE_skoda.png"
 	}
 	spriteType = {
 		name = "GFX_idea_CZE_skoda_shipyards"
-		texturefile = "gfx/interface/ideas/idea_cze_skoda_shipyards.dds"
+		texturefile = "gfx/interface/companies/CZE/CZE_Skoda_Naval_Guns.png"
 	}
 	spriteType = {
 		name = "GFX_idea_CZE_skoda_armor"
-		texturefile = "gfx/interface/ideas/idea_cze_skoda_armor.dds"
+		texturefile = "gfx/interface/companies/CZE/CZE_Skoda_Tanks.png"
 	}
 	spriteType = {
 		name = "GFX_idea_CZE_zbrojovka_brno"

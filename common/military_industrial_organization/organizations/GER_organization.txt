@@ -229,6 +229,15 @@ GER_germaniawerft_organization = {
 	}
 }
 
+GER_kaiserliche_werft_wilhelmshaven = {
+	include = generic_task_force_ship_organization
+	icon = GFX_idea_kaiserliche_werft_wilhelmshaven
+	
+	allowed = {	
+		tag = GER 
+	}
+}
+
 GER_blohm_und_voss_organization = {
 	include = generic_raider_ship_organization
 	icon = GFX_idea_blohm_und_voss
