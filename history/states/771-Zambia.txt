@@ -5,13 +5,14 @@ state={
 	state_category = rural
 
 	resources={
-		chromium=35 # was: 64.000
-		tungsten=8 # was: 16.000
+		chromium=48
+		tungsten=12
 	}
 
 	history={
-		owner = ENG
+		owner = ZIM
 		add_core_of = ZAM
+		add_core_of = ZIM
 		victory_points = {
 			5199 1
 		}
