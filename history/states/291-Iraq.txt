@@ -13,7 +13,7 @@ state={
 	history={
 		owner = TUR
 		victory_points = {
-			2097 10
+			2097 15
 		}
 		victory_points = {
 			7994 1
@@ -35,7 +35,6 @@ state={
 		}
 		add_core_of = IRQ
 		add_core_of = TUR
-		add_claim_by = KUR
 	}
 
 	provinces={

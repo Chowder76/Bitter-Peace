@@ -16,7 +16,7 @@ state={
 			infrastructure = 2
 		}
 		victory_points = {
-			10106 5 
+			10106 10
 		}
 		victory_points = {
 			3916 3 
@@ -26,7 +26,6 @@ state={
 		}
 		add_core_of = IRQ
 		add_core_of = TUR
-		add_core_of = KUR
 	}
 	
 	provinces={
