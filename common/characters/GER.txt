@@ -83,16 +83,13 @@ characters={
 		portraits={
 			army={
 				large="gfx/leaders/GER/Portrait_GER_Gerd_von_Rundstedt_kr.png"
-				small="GFX_idea_gerd_von_rundstedt"
+				small="gfx/interface/advisors/GER/GER_gerd_von_rundstedt.png"
 			}
 		}
 		advisor={
 			slot = high_command
 			idea_token = gerd_von_rundstedt
 			ledger = army
-			allowed = {
-				original_tag = GER
-			}
 			traits = {
 				army_regrouping_2
 			}
@@ -387,7 +384,7 @@ characters={
 		portraits={
 			army={
 				large="gfx/leaders/GER/Portrait_GER_Wilhelm_Ritter_von_Leeb_kr.png"
-				small=GFX_portrait_GER_wilhelm_ritter_von_leeb_small
+				small="gfx/interface/advisors/GER/GER_wilhelm_ritter_von_leeb.png"
 			}
 		}
 		corps_commander={
