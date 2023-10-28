@@ -3,7 +3,7 @@ characters={
 		name=USA_franklin_delano_roosevelt
 		portraits={
 			civilian={
-				large=GFX_portrait_USA_franklin_delano_roosevelt
+				large="gfx/leaders/USA/Portrait_USA_Franklin_Delano_Roosevelt_DBK.png"
 			}
 		}
 		country_leader={
@@ -69,27 +69,79 @@ characters={
 		}
 	}
 
+
+
+	USA_george_marshall={
+		name=USA_george_marshall
+		portraits={
+			army={
+				small="gfx/interface/advisors/USA/USA_george_marshall.png"
+				large="gfx/leaders/USA/Portrait_USA_George_Catlett_Marshall.png"
+			}
+		}
+		field_marshal={
+			traits={ old_guard politically_connected thorough_planner expert_delegator }
+			skill=5
+			attack_skill=4
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=4
+			legacy_id=22371
+		}
+		advisor={
+			slot = army_chief
+			idea_token = george_marshall
+			traits = {
+				army_chief_drill_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	USA_malin_craig={
+		name="Malin Craig"
+		portraits={
+			army={
+				large="gfx/leaders/USA/Portrait_USA_Malin_Craig.png"
+				small="gfx/interface/advisors/USA/USA_malin_craig.png"
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious organizer logistics_wizard }
+			skill=3
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=4
+		}
+		advisor={
+			slot = army_chief
+			idea_token = malin_craig
+			traits = { army_chief_planning_2 }
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
 	USA_george_s_patton={
 		name=USA_george_s_patton
 		portraits={
 			army={
 				large="gfx/leaders/USA/Portrait_USA_george_patton_KR.png"
-				small="GFX_idea_george_patton"
+				small="gfx/interface/advisors/USA/USA_george_s_patton.png"
 			}
 		}
 		advisor={
 			cost = 150
-			
 			slot = theorist
 			idea_token = george_patton
 			ledger = army
-				allowed = {
-					original_tag = USA
-				}
-				
-				traits = {
-					mobile_warfare_expert
-				}
+			traits = { mobile_warfare_expert }
 		}
 
 		corps_commander={
@@ -107,7 +159,7 @@ characters={
 		name=USA_omar_bradley
 		portraits={
 			army={
-				small="GFX_idea_omar_bradley"
+				small="gfx/interface/advisors/USA/USA_omar_bradley.png"
 				large="gfx/leaders/USA/Portrait_USA_Omar_Bradley_KR.png"
 			}
 		}
@@ -116,13 +168,7 @@ characters={
 			slot = theorist
 			idea_token = omar_bradley
 			ledger = army
-			allowed = {
-				original_tag = USA
-			}
-			
-			traits = {
-				superior_firepower_expert
-			}
+			traits = { superior_firepower_expert }
 		}
 
 		corps_commander={
@@ -144,26 +190,21 @@ characters={
 			}
 			army={
 				large="gfx/leaders/USA/Portrait_USA_Dwight_Eisenhower_army.png"
-				small="GFX_idea_dwight_eisenhower"
+				small="gfx/interface/advisors/USA/USA_dwight_d_eisenhower.png"
 			}
 		}
 		advisor={
-			slot = army_chief
+			slot = high_command
 			idea_token = dwight_eisenhower
-			allowed = {
-					original_tag = USA
-				}
-				traits = {
-					army_chief_offensive_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
+			ledger = army
+			traits = { army_logistics_2 }
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
-		
-		field_marshal={
-			traits={ trait_cautious armor_officer politically_connected organizer logistics_wizard offensive_doctrine }
+		corps_commander={
+			traits={ trait_cautious armor_officer politically_connected organizer }
 			skill=5
 			attack_skill=3
 			defense_skill=3
@@ -177,7 +218,7 @@ characters={
 		name=USA_geoffrey_keyes
 		portraits={
 			army={
-				large=GFX_portrait_USA_geoffrey_keyes
+				large="gfx/leaders/USA/Portrait_USA_Geoffrey_Keyes_KR.png"
 				small=GFX_portrait_USA_geoffrey_keyes_small
 			}
 		}
@@ -196,7 +237,7 @@ characters={
 		name=USA_lucian_truscott
 		portraits={
 			army={
-				large=GFX_portrait_USA_lucian_truscott
+				large="gfx/leaders/USA/Portrait_USA_Lucian_Truscott_KR.png"
 				small=GFX_portrait_USA_lucian_truscott_small
 			}
 		}
@@ -215,26 +256,19 @@ characters={
 		name=USA_mark_clark
 		portraits={
 			army={
-				small="GFX_idea_mark_clark"
-			}
-			army={
-				large=GFX_portrait_USA_mark_clark
+				small="gfx/interface/advisors/USA/USA_mark_w_clark.png"
+				large="gfx/leaders/USA/Portrait_USA_Mark_Clark_KR.png"
 			}
 		}
 		advisor={
 			slot = high_command
 			idea_token = mark_clark
 			ledger = army
-				allowed = {
-					original_tag = USA
-				}
-				traits = {
-					army_infantry_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
+			traits = { army_infantry_2 }
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 		
 		corps_commander={
@@ -252,29 +286,17 @@ characters={
 		name=USA_douglas_macarthur
 		portraits={
 			army={
-				small="GFX_idea_douglas_macarthur"
+				small="gfx/interface/advisors/USA/USA_douglas_macarthur.png"
+				large="gfx/leaders/USA/Portrait_USA_Douglas_MacArthur_KR.png"
 			}
-			army={
-				large=GFX_portrait_USA_douglas_macarthur
+			civilian={
+				large="gfx/leaders/USA/Portrait_USA_Douglas_MacArthur_civilian.png"
 			}
 		}
 		advisor={
 			slot = army_chief
 			idea_token = douglas_macarthur
-			allowed = {
-				original_tag = USA
-			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						ruling_only = yes
-						character = USA_douglas_macarthur
-					}
-				}
-			}
-			traits = {
-				army_chief_morale_2
-			}
+			traits = { army_chief_morale_2 }
 			cost = 100
 			ai_will_do = {
 				factor = 1.000
@@ -297,26 +319,9 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_USA_walter_krueger"
-			}
-			army={
-				large=GFX_portrait_USA_walter_krueger
+				large="gfx/leaders/USA/Portrait_USA_Walter_Krueger_KR.png"
 			}
 		}
-		advisor={
-			slot = army_chief
-			idea_token = walter_krueger
-			allowed = {
-				original_tag = USA
-			}
-			traits = {
-				army_chief_planning_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-
 		corps_commander={
 			traits={ brilliant_strategist career_officer armor_officer }
 			skill=3
@@ -332,7 +337,7 @@ characters={
 		name=USA_lloyd_fredendall
 		portraits={
 			army={
-				large=GFX_portrait_USA_lloyd_fredendall
+				large="gfx/leaders/USA/Portrait_USA_Lloyd_Fredendall_KR.png"
 				small=GFX_portrait_USA_lloyd_fredendall_small
 			}
 		}
@@ -351,7 +356,7 @@ characters={
 		name=USA_leslie_mcnair
 		portraits={
 			army={
-				large=GFX_portrait_USA_leslie_mcnair
+				large="gfx/leaders/USA/Portrait_USA_Lesley_McNair_KR.png"
 				small=GFX_portrait_USA_leslie_mcnair_small
 			}
 		}
@@ -370,7 +375,7 @@ characters={
 		name=USA_jonathan_wainwright
 		portraits={
 			army={
-				large=GFX_portrait_USA_jonathan_wainwright
+				large="gfx/leaders/USA/Portrait_USA_Jonathan_Wainwright_KR.png"
 				small=GFX_portrait_USA_jonathan_wainwright_small
 			}
 		}
@@ -384,30 +389,11 @@ characters={
 		}
 	}
 
-	USA_russell_hartle={
-		name=USA_russell_hartle
-		portraits={
-			army={
-				large=GFX_portrait_USA_russell_hartle
-				small=GFX_portrait_USA_russell_hartle_small
-			}
-		}
-		corps_commander={
-			traits={ infantry_officer }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
-
 	USA_leonard_gerow={
 		name=USA_leonard_gerow
 		portraits={
 			army={
-				large=GFX_portrait_USA_leonard_gerow
+				large="gfx/leaders/USA/Portrait_USA_Leonard_Gerow_KR.png"
 				small=GFX_portrait_USA_leonard_gerow_small
 			}
 		}
@@ -426,7 +412,7 @@ characters={
 		name=USA_edward_brooks
 		portraits={
 			army={
-				large=GFX_portrait_USA_edward_brooks
+				large="gfx/leaders/USA/Portrait_USA_Edward_Brooks_KR.png"
 				small=GFX_portrait_USA_edward_brooks_small
 			}
 		}
@@ -445,7 +431,7 @@ characters={
 		name=USA_clarence_huebner
 		portraits={
 			army={
-				large=GFX_portrait_USA_clarence_huebner
+				large="gfx/leaders/USA/Portrait_USA_Clarence_Huebner_KR.png"
 				small=GFX_portrait_USA_clarence_huebner_small
 			}
 		}
@@ -464,7 +450,7 @@ characters={
 		name=USA_alexander_patch
 		portraits={
 			army={
-				large=GFX_portrait_USA_alexander_patch
+				large="gfx/leaders/USA/Portrait_USA_Alexander_Patch_KR.png"
 				small=GFX_portrait_USA_alexander_patch_small
 			}
 		}
@@ -483,7 +469,7 @@ characters={
 		name=USA_william_simpson
 		portraits={
 			army={
-				large=GFX_portrait_USA_william_simpson
+				large="gfx/leaders/USA/Portrait_USA_William_Simpson_KR.png"
 				small=GFX_portrait_USA_william_simpson_small
 			}
 		}
@@ -502,7 +488,7 @@ characters={
 		name=USA_j_lawton_collins
 		portraits={
 			army={
-				large=GFX_portrait_USA_j_lawton_collins
+				large="gfx/leaders/USA/Portrait_USA_Joseph_Collins.png"
 				small=GFX_portrait_USA_j_lawton_collins_small
 			}
 		}
@@ -521,19 +507,14 @@ characters={
 		name=USA_courtney_hodges
 		portraits={
 			army={
-				small="GFX_idea_courtney_hodges"
-			}
-			army={
-				large=GFX_portrait_USA_courtney_hodges
+				small="gfx/interface/advisors/USA/USA_cortney_hodges.png"
+				large="gfx/leaders/USA/Portrait_USA_Courtney_Hicks_Hodges.png"
 			}
 		}
 		advisor={
 			slot = high_command
 			idea_token = courtney_hodges
 			ledger = army
-			allowed = {
-				original_tag = USA
-			}
 			traits = {
 				army_commando_2
 			}
@@ -559,29 +540,7 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_joseph_stilwell"
-			}
-			army={
-				large=GFX_portrait_USA_joseph_stilwell
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = joseph_stilwell
-			ledger = army
-			allowed = {
-				original_tag = USA
-			}
-			available = {
-				NOT = {
-					has_country_flag = joseph_stilwell_sent_to_china
-				}
-			}
-			traits = {
-				army_logistics_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
+				large="gfx/leaders/USA/Portrait_USA_Joseph_Stilwell_KR.png"
 			}
 		}
 		
@@ -596,30 +555,11 @@ characters={
 		}
 	}
 
-	USA_oscar_griswold={
-		name=USA_oscar_griswold
-		portraits={
-			army={
-				large=GFX_portrait_USA_oscar_griswold
-				small=GFX_portrait_USA_oscar_griswold_small
-			}
-		}
-		corps_commander={
-			traits={ infantry_officer }
-			skill=2
-			attack_skill=2
-			defense_skill=1
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=0
-		}
-	}
-
 	USA_maurice_rose={
 		name=USA_maurice_rose
 		portraits={
 			army={
-				large=GFX_portrait_USA_maurice_rose
+				large="gfx/leaders/USA/Portrait_USA_Maurice_Rose_KR.png"
 				small=GFX_portrait_USA_maurice_rose_small
 			}
 		}
@@ -638,8 +578,8 @@ characters={
 		name = USA_alexander_vandegrift
 		portraits={
 			army={
-				large="GFX_portrait_USA_alexander_vandegrift"
-				small="GFX_portrait_USA_alexander_vandegrift_small"
+				large="gfx/leaders/USA/Portrait_USA_Alexander_Vandergrift_KR.png"
+				small="gfx/interface/advisors/USA/USA_alexander_vandergrift.png"
 			}
 		}
 		corps_commander = {
@@ -649,9 +589,6 @@ characters={
 			defense_skill = 1
 			planning_skill = 3
 			logistics_skill = 3
-			visible = { 
-				has_completed_focus = USA_intervention_in_asia 
-			}
 		}
 	}
 
@@ -659,21 +596,14 @@ characters={
 		name=USA_ernest_king
 		portraits={
 			navy={
-				small="GFX_idea_ernest_king"
-			}
-			army={
-				large=GFX_portrait_USA_ernest_king
+				small="gfx/interface/advisors/USA/USA_ernest_king.png"
+				large="gfx/leaders/USA/Portrait_USA_Ernest_King_KR.png"
 			}
 		}
 		advisor={
 			slot = navy_chief
 			idea_token = ernest_king
-			allowed = {
-				original_tag = USA
-			}
-			traits = {
-				navy_chief_reform_2
-			}
+			traits = { navy_chief_reform_2 }
 			cost = 100
 			ai_will_do = {
 				factor = 1.000
@@ -695,18 +625,13 @@ characters={
 		name=USA_chester_w_nimitz
 		portraits={
 			army={
-				large=GFX_portrait_USA_chester_w_nimitz
-			}
-			army={
+				large="gfx/leaders/USA/Portrait_USA_Chester_William_Nimitz.png"
 				small="GFX_idea_chester_nimitz"
 			}
 		}
 		advisor={
 			slot = navy_chief
 			idea_token = chester_nimitz
-			allowed = {
-				original_tag = USA
-			}
 			traits = {
 				navy_chief_commerce_raiding_2
 			}
@@ -730,12 +655,8 @@ characters={
 	USA_william_halsey_jr={
 		name=USA_william_halsey_jr
 		portraits={
-			navy={
-				large=GFX_portrait_USA_william_halsey_jr
-				small=GFX_portrait_USA_william_halsey_jr_small
-			}
 			army={
-				large=GFX_portrait_USA_william_halsey_jr
+				large="gfx/leaders/USA/Portrait_USA_William_Halsey_Jr_KR.png"
 				small=GFX_portrait_USA_william_halsey_jr_small
 			}
 		}
@@ -751,9 +672,6 @@ characters={
 		advisor={
 			slot = navy_chief
 			idea_token = william_halsey
-			allowed = {
-				original_tag = USA
-			}
 			traits = {
 				navy_chief_naval_aviation_2
 			}
@@ -771,16 +689,13 @@ characters={
 				small="GFX_idea_frank_jack_fletcher"
 			}
 			army={
-				large=GFX_portrait_USA_frank_jack_fletcher
+				large="gfx/leaders/USA/Portrait_USA_Frank_Fletcher.png"
 			}
 		}
 		advisor={
 			slot = high_command
 			idea_token = frank_jack_fletcher
 			ledger = air
-			allowed = {
-				original_tag = USA
-			}
 			traits = {
 				navy_carrier_2
 			}
@@ -805,20 +720,15 @@ characters={
 		name=USA_raymond_a_spruance
 		portraits={
 			army={
-				large=GFX_portrait_USA_raymond_a_spruance
-				small=GFX_portrait_USA_raymond_a_spruance_small
+				large="gfx/leaders/USA/Portrait_USA_Raymond_Spruance_KR.png"
+				small="gfx/interface/advisors/USA/USA_raymond_a_spruance.png"
 			}
 		}
 		advisor={
 			slot = high_command
 			idea_token = raymond_spruance
 			ledger = navy
-			allowed = {
-				original_tag = USA
-			}
-			traits = {
-				navy_naval_air_defense_2
-			}
+			traits = { navy_naval_air_defense_2 }
 			cost = 100
 			ai_will_do = {
 				factor = 1.000
@@ -839,7 +749,7 @@ characters={
 		name=USA_harold_rainsford_stark
 		portraits={
 			army={
-				large=GFX_portrait_USA_harold_rainsford_stark
+				large="gfx/leaders/USA/Portrait_USA_Harold_Stark.png"
 				small=GFX_portrait_USA_harold_rainsford_stark_small
 			}
 		}
@@ -858,8 +768,8 @@ characters={
 		name=USA_arleigh_burke
 		portraits={
 			army={
-				large=GFX_portrait_USA_arleigh_burke
-				small=GFX_portrait_USA_arleigh_burke_small
+				large="gfx/leaders/USA/Portrait_USA_Arleigh_Burke_KR.png"
+				small="gfx/interface/advisors/USA/USA_arleigh_burke.png"
 			}
 		}
 		navy_leader={
@@ -877,7 +787,7 @@ characters={
 		name=USA_charles_m_cooke_jr
 		portraits={
 			army={
-				large=GFX_portrait_USA_charles_m_cooke_jr
+				large="gfx/leaders/USA/Portrait_USA_Charles_Cooke_KR.png"
 				small=GFX_portrait_USA_charles_m_cooke_jr_small
 			}
 		}
@@ -1035,31 +945,6 @@ characters={
 
 	# MacArthur up there
 
-	# Krueger up there
-
-	USA_george_marshall={
-		name=USA_george_marshall
-		portraits={
-			army={
-				small="GFX_idea_george_marshall"
-			}
-		}
-		advisor={
-			slot = army_chief
-			idea_token = george_marshall
-			allowed = {
-				original_tag = USA
-			}
-			traits = {
-				army_chief_drill_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
-
 	
 	### NAVY CHIEFS ###
 
@@ -1074,18 +959,14 @@ characters={
 		name=USA_henry_arnold
 		portraits={
 			army={
-				small="GFX_idea_henry_arnold"
+				small="gfx/interface/advisors/USA/USA_henry_arnold.png"
+				large="gfx/leaders/USA/Portrait_USA_Henry_Arnold.png"
 			}
 		}
 		advisor={
 			slot = air_chief
 			idea_token = henry_arnold
-			allowed = {
-				original_tag = USA
-			}
-			traits = {
-				air_chief_reform_3
-			}
+			traits = { air_chief_reform_3 }
 			cost = 200
 			ai_will_do = {
 				factor = 1.000
@@ -1120,15 +1001,13 @@ characters={
 		name=USA_george_kenney
 		portraits={
 			army={
-				small="GFX_idea_george_kenney"
+				small="gfx/interface/advisors/USA/USA_george_kenney.png"
+				large="gfx/leaders/USA/Portrait_USA_George_Kenney.png"
 			}
 		}
 		advisor={
 			slot = air_chief
 			idea_token = george_kenney
-			allowed = {
-				original_tag = USA
-			}
 			traits = {
 				air_chief_safety_2
 			}
@@ -1143,19 +1022,16 @@ characters={
 		name=USA_charles_lindbergh
 		portraits={
 			army={
-				small=GFX_portrait_USA_charles_lindbergh_small
+				small="gfx/interface/advisors/USA/USA_charles_lindbergh.png"
 			}
 			civilian={
-				large = GFX_portrait_USA_charles_lindbergh
+				large = "gfx/leaders/USA/Portrait_USA_Charles_Lindbergh_KR.png"
 			}
 		}
 
 		advisor={
 			slot = high_command
 			idea_token = USA_charles_lindbergh
-			allowed = {
-				original_tag = USA
-			}
 			# TODO [AB] add support for equipment bonuses
 			#equipment_bonus = {
 			#	fighter_equipment = {
@@ -1192,19 +1068,15 @@ characters={
 		name=USA_jimmy_doolittle
 		portraits={
 			army={
-				small="GFX_idea_jimmy_doolittle"
+				small="gfx/interface/advisors/USA/USA_james_doolittle.png"
+				large="gfx/leaders/USA/Portrait_USA_Jimmy_Doolittle.png"
 			}
 		}
 		advisor={
 			slot = high_command
 			idea_token = jimmy_doolittle
 			ledger = air
-			allowed = {
-				original_tag = USA
-			}
-			traits = {
-				air_strategic_bombing_2
-			}
+			traits = { air_strategic_bombing_2 }
 			cost = 100
 			ai_will_do = {
 				factor = 1.000
@@ -1240,16 +1112,14 @@ characters={
 		name=USA_claire_lee_chennault
 		portraits={
 			army={
-				small="GFX_idea_claire_lee_chennault"
+				small="gfx/interface/advisors/USA/USA_claire_chennault.png"
+				large="gfx/leaders/USA/Portrait_USA_Claire_Chennault.png"
 			}
 		}
 		advisor={
 			slot = high_command
 			idea_token = claire_lee_chennault
 			ledger = air
-			allowed = {
-				original_tag = USA
-			}
 			traits = {
 				air_tactical_bombing_2
 			}
@@ -1264,16 +1134,14 @@ characters={
 		name=USA_thomas_kinkaid
 		portraits={
 			army={
-				small="GFX_idea_thomas_kinkaid"
+				small="gfx/interface/advisors/USA/USA_thomas_kinkaid.png"
+				large="gfx/leaders/USA/Portrait_USA_thomas_kinkaid.png"
 			}
 		}
 		advisor={
 			slot = high_command
 			idea_token = thomas_kinkaid
 			ledger = army
-			allowed = {
-				original_tag = USA
-			}
 			traits = {
 				navy_amphibious_assault_2
 			}
@@ -1329,14 +1197,12 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_europe_1"
+				large="gfx/leaders/USA/Portrait_USA_Robert_Taft.png"
 			}
 		}
 		advisor={
 			slot = political_advisor
 			idea_token = USA_robert_taft
-			allowed  = {
-				original_tag  = USA
-			}
 			traits  = {
 				silent_workhorse 
 			}
@@ -1367,14 +1233,12 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_europe_5"
+				large="gfx/leaders/USA/Portrait_USA_John_Winant.png"
 			}
 		}
 		advisor={
 			slot = political_advisor
 			idea_token = USA_john_winant
-			allowed  = {
-				original_tag  = USA
-			}
 			traits  = {
 				compassionate_gentleman 
 			}
@@ -1462,6 +1326,7 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_usa_william_donovan"
+				large="gfx/leaders/USA/Portrait_USA_William_Donovan.png"
 			}
 		}
 		advisor={
