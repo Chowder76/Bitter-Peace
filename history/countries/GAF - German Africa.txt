@@ -145,7 +145,12 @@ if = {
 	}
 }
 
-
+GER = {
+	set_autonomy = {
+		target = GAF
+		autonomy_state = puppet
+	}
+}
 
 set_politics = {
 	ruling_party = neutrality
@@ -159,3 +164,17 @@ set_popularities = {
 	communism = 5
 	neutrality = 50
 }
+
+recruit_character = GAF_Rudolf_Asmis
+recruit_character = GAF_franz_ritter_von_epp
+recruit_character = GAF_paul_von_lettowvorbeck
+recruit_character = GAF_Theodor_von_Hippel
+recruit_character = GAF_Georg_Kraut
+recruit_character = GAF_alexander_von_falkenhausen
+recruit_character = GAF_Heinrich_Kirchheim
+recruit_character = GAF_hermann_detzner
+recruit_character = GAF_Ludwig_Bockholt
+recruit_character = GAF_ernst_volckheim
+recruit_character = GAF_ernst_busch
+recruit_character = GAF_Max_von_Looff
+recruit_character = GAF_Richard_Wenig

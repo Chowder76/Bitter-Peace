@@ -3,9 +3,9 @@ state={
 	name="STATE_770"
 
 	history={
-		owner = ZIM
+		owner = GAF
 		add_core_of = MLW
-		add_core_of = ZIM
+		add_core_of = GAF
 		victory_points = {
 			12986 1 
 		}

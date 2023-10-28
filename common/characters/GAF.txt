@@ -1,0 +1,323 @@
+characters={
+	GAF_Rudolf_Asmis = {
+		name = "Rudolf Asmis"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GAF/Portrait_GAF_Rudolf_Asmis.png"
+			}
+		}
+		country_leader = {
+			ideology = centrism
+		}
+	}
+
+	GAF_franz_ritter_von_epp = { 
+		name= "Franz Ritter von Epp"
+		portraits={
+			army={
+				large="gfx/leaders/GAF/Portrait_GAF_Franz_Ritter_von_Epp.png"
+				small="gfx/interface/advisors/GAF/GAF_Franz_Ritter_von_Epp.png"
+			}
+		}
+		field_marshal = {
+			traits = { war_hero politically_connected harsh_leader }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		advisor={
+			slot = army_chief
+			idea_token = franz_ritter_von_epp
+			traits = { army_chief_offensive_2 }
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	GAF_paul_von_lettowvorbeck={
+		name="Paul von Lettow-Vorbeck"
+		portraits={
+			army={
+				small="gfx/interface/advisors/GAF/GAF_Paul_von_Lettow_Vorbeck.png"
+				large="gfx/leaders/GAF/Portrait_GAF_Paul_von_Lettow_Vorbeck.png"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = lettowvorbeck
+			ledger = army
+			traits = {
+				army_commando_2
+			}
+			cost = 100
+		}
+		corps_commander={
+			traits={ brilliant_strategist war_hero commando media_personality jungle_rat }
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=5
+			legacy_id=-1
+		}
+	}
+	GAF_Georg_Kraut = {
+		name = "Georg Kraut"
+		portraits = {
+			army = {
+				large = "gfx/leaders/GAF/Portrait_GAF_George_Kraut.png"
+			}
+		}
+		corps_commander = {
+			traits = { war_hero media_personality desert_fox }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	GAF_alexander_von_falkenhausen = {
+		name = "Alexander von Falkenhausen"
+		portraits = {
+			army = {
+				large="gfx/leaders/GAF/Portrait_GAF_Alexander_von_Falkenhausen.png"
+				small="gfx/interface/advisors/GAF/GAF_Alexander_von_Falkenhausen.png"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			traits = { infantry_officer }
+		}
+		advisor={
+			slot = high_command
+			idea_token = alexander_von_falkenhausen
+			ledger = army
+			traits = {
+				army_infantry_2
+			}
+			cost = 100
+		}
+	}
+	GAF_Heinrich_Kirchheim = {
+		name = "Heinrich Kirchheim"
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/GAF/GAF_Heinrich_Kirchheim.png"
+				large = "gfx/leaders/GAF/Portrait_GAF_Heinrich_Kircheim.png"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = GAF_Heinrich_Kirchheim
+			ledger = army
+			traits = { army_CombinedArms_2 }
+			cost = 100
+		}
+		field_marshal = {
+			traits = { old_guard organizer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+
+	GAF_hermann_detzner = {
+		name = "Hermann Detzner"
+		portraits = {
+			army = {
+				large="gfx/leaders/GAF/Portrait_GAF_Hermann_Detzner.png"
+				small="gfx/interface/advisors/GAF/GAF_Hermann_Detzner.png"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			traits = { war_hero jungle_rat trickster guerilla_fighter }
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MAF_Hermann_Detzner
+			traits = { army_entrenchment_2 }
+			cost = 100
+		}
+	}
+
+	GAF_Theodor_von_Hippel = {
+		name = "Theodor von Hippel"
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/GAF/GAF_Theodor_von_Hippel.png"
+				large = "gfx/leaders/GAF/Portrait_GAF_Theodor_von_Hippel.png"
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist war_hero trickster commando camouflage_expert guerilla_fighter }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		advisor={
+			cost = 100			
+			slot = theorist
+			idea_token = theordor_von_hippel
+			ledger = army
+			traits = { military_theorist }
+		}
+	}
+
+	GAF_ernst_volckheim={
+		name="Ernst Volckheim"
+		portraits={
+			army={
+				small="gfx/interface/advisors/GAF/GAF_Ernst_Volckheim.png"
+				large="gfx/leaders/GAF/Portrait_GAF_Ernst_Volckheim.png"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist career_officer armor_officer trickster panzer_leader }
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=6
+		}
+		advisor={
+			cost = 200
+			slot = theorist
+			idea_token = ernst_volckheim
+			ledger = army
+			traits = {
+				blitzkrieg_theorist
+			}
+		}
+	}
+
+	GAF_ernst_busch = {
+		name = "Ernst Busch"
+		portraits = {
+			army = {
+				large = "gfx/leaders/GAF/Portrait_GAF_Ernst_Busch.png"
+				small = "gfx/interface/advisors/GAF/GAF_Ernst_Busch.png"
+			}
+		}
+		corps_commander = {
+			traits = { career_officer infantry_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		advisor={
+			slot = high_command
+			idea_token = ernst_busch
+			ledger = army
+			traits = {
+				army_logistics_1
+			}
+			cost = 50
+		}
+	}
+
+	GAF_Ludwig_Bockholt = {
+		name = "Ludwig Bockholt"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GAF/Portrait_GAF_Ludwig_Bockholt.png"
+			}
+			army = {
+				small = "gfx/interface/advisors/GAF/GAF_Ludwig_Bockholt.png"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = GAF_Ludwig_Bockholt_air_chief
+			available = {
+				not_already_hired_except_as = air_chief
+			}
+			traits = { air_chief_reform_1 }
+			cost = 50
+		}
+		advisor = {
+			slot = high_command
+			idea_token = GAF_Ludwig_Bockholt_high_command
+			ledger = air
+			available = {
+				not_already_hired_except_as = high_command
+			}
+			traits = { air_airborne_2 }
+			cost = 100
+		}
+	}
+
+	GAF_Max_von_Looff = {
+		name = "Max Looff"
+		portraits = {
+			navy = {
+				large = "gfx/leaders/GAF/Portrait_GAF_Max_Looff.png"
+				small = "gfx/interface/advisors/GAF/GAF_Max_von_Looff.png"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = GAF_Max_von_Looff
+			traits = { navy_chief_maneuver_1 }
+			cost = 50
+		}
+		navy_leader = {
+			traits = { spotter }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 3
+		}
+	}
+
+	GAF_Richard_Wenig = {
+		name = "Richard Wenig"
+		portraits = {
+			navy = {
+				large = "gfx/leaders/GAF/Portrait_GAF_Richard_Wenig.png"
+				small = "gfx/interface/advisors/GAF/GAF_Richard_Wenig.png"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = MAF_Richard_Wenig_theorist
+			ledger = navy
+			available = {
+				not_already_hired_except_as = theorist
+			}
+			traits = { naval_theorist }
+			cost = 100
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MAF_Richard_Wenig_high_command
+			ledger = navy
+			available = {
+				not_already_hired_except_as = high_command
+			}
+			traits = { navy_screen_1 }
+			cost = 50
+		}
+	}
+]

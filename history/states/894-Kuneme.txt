@@ -5,12 +5,13 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = GER
+		owner = GAF
 		buildings = {
 			infrastructure = 2
 
 		}
 		add_core_of = NMB
+		add_core_of = GAF
 
 	}
 	provinces={

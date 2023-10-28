@@ -10,9 +10,9 @@ state={
 	}
 
 	history={
-		owner = ZIM
+		owner = GAF
 		add_core_of = ZAM
-		add_core_of = ZIM
+		add_core_of = GAF
 		victory_points = {
 			5199 1
 		}
