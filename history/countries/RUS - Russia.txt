@@ -30,6 +30,19 @@ recruit_character = SOV_vyacheslav_tkachyov
 recruit_character = SOV_yan_nagursky
 recruit_character = SOV_vasily_yanchenko
 recruit_character = RUS_tsar_vladimir_kirillovich
+recruit_character = RUS_pavel_shatilov
+recruit_character = RUS_vladimir_kappel
+recruit_character = RUS_mikhail_drozdovsky
+recruit_character = RUS_ivan_romanovsky
+recruit_character = RUS_aleksander_kutepov
+recruit_character = RUS_anton_turkul
+recruit_character = RUS_boris_shteyfon
+recruit_character = RUS_vladimir_vitkovsky
+recruit_character = RUS_mikhail_levitov
+recruit_character = RUS_vladimir_manstein
+recruit_character = RUS_sergey_markov
+recruit_character = RUS_fyodor_abramov
+
 recruit_character = RUS_aleksandr_kolchak
 recruit_character = RUS_mikhail_kedrov
 
