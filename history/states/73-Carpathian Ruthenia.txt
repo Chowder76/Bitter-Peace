@@ -9,13 +9,14 @@ state={
 		victory_points = {
 			3548 1 
 		}
-		owner = SLO
+		owner = RUS
 		buildings = {
 			infrastructure = 3
 		}
 		add_core_of = SLO
 		add_claim_by = HUN
-		add_claim_by = UKR
+		add_core_of = UKR
+		add_core_of = RUS
 	}
 
 	provinces={
