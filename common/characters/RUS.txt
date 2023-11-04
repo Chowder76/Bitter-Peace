@@ -103,7 +103,7 @@ characters = {
 			available = {
 				not_already_hired_except_as = high_command
 			}
-			traits = { army_chief_entrenchment_2 }
+			traits = { army_entrenchment_2 }
 			cost = 100
 		}
 		advisor = {
@@ -115,6 +115,30 @@ characters = {
 			}
 			traits = { grand_battle_plan_expert }
 			cost = 150
+		}
+	}
+
+	RUS_pavlo_skoropadskyi = {
+		name = "Pavlo Skoropadskyi"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Pavlo_Skoropadskyi.png"
+				small = "gfx/interface/advisors/RUS/RUS_pavlo_skoropadskyi.png"
+			}
+		}
+		field_marshal = {
+			traits = { old_guard politically_connected cavalry_officer organizer thorough_planner }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = RUS_pavlo_skoropadskyi_chief
+			traits = { army_chief_old_guard }
+			cost = 100
 		}
 	}
 
@@ -137,30 +161,6 @@ characters = {
 			logistics_skill = 3
 			legacy_id = 0
 			visible = { NOT = { has_character_flag = SOV_exiled_flag } }
-		}
-	}
-
-	SOV_vasily_korzh = {
-		name = SOV_vasily_korzh
-		portraits = {
-			army = {
-				large = "GFX_portrait_SOV_vasily_korzh"
-				small = GFX_portrait_SOV_vasily_korzh_small
-			}
-		}
-
-		corps_commander = {
-			traits = { trait_cautious war_hero trickster }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 3
-			legacy_id = 0
-			visible = {
-				NOT = { has_character_flag = SOV_exiled_flag }
-				has_completed_focus = SOV_organization_of_the_partisans
-			}
 		}
 	}
 
@@ -298,7 +298,7 @@ characters = {
 		}
 	}
 
-	SOV_andrey_shkuro = {
+	RUS_andrey_shkuro = {
 		name = SOV_andrey_shkuro
 		portraits = {
 			army = {
@@ -306,7 +306,7 @@ characters = {
 				small = "GFX_idea_SOV_andrey_shkuro"
 			}
 		}
-		field_marshal = {
+		corps_commander = {
 			traits = { trait_reckless cavalry_officer }
 			skill = 2
 			attack_skill = 2
@@ -316,11 +316,11 @@ characters = {
 		}
 	}
 
-	SOV_grigory_semyonov = {
+	RUS_grigory_semyonov = {
 		name = SOV_grigory_semyonov
 		portraits = {
 			army = {
-				small = "GFX_idea_SOV_grigory_semyonov"
+				small = "gfx/interface/advisors/RUS/RUS_grigory_semyonov.png"
 				large = "gfx/leaders/RUS/Portrait_RUS_Grigory_Semyonov.png"
 			}
 		}
@@ -543,7 +543,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/RUS/Portrait_RUS_Sergei_Markov.png"
-				small = "gfx/interface/advisors/RUS/RUS_sergey_markov.png"
+				small = "gfx/interface/advisors/RUS/RUS_Sergei_Markov.png"
 			}
 		}
 		corps_commander = {
@@ -591,6 +591,211 @@ characters = {
 			defense_skill = 2
 			planning_skill = 1
 			logistics_skill = 2
+		}
+	}
+
+	RUS_vyacheslav_naumenko = {
+		name = "Vyacheslav Naumenko"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Vyacheslav_Naumenko.png"
+				small = "gfx/interface/advisors/RUS/RUS_vyacheslav_naumenko.png"
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer cavalry_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+
+	RUS_pavel_bermondt_avalov = {
+		name = "Pavel Bermondt-Avalov"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Pavel_Bermondt_Avalov.png"
+				small = "gfx/interface/advisors/RUS/RUS_pavel_bermondt_avalov.png"
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer politically_connected }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	RUS_abram_dragomirov = {
+		name = "Abram Dragomirov"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Abram_Dragomirov.png"
+				small = "gfx/interface/advisors/RUS/RUS_abram_dragomirov.png"
+			}
+		}
+		corps_commander = {
+			traits = { old_guard cavalry_officer organizer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	RUS_anatoly_pepelyaev = {
+		name = "Anatoly Pepelyayev"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Anatoly_Pepelyaev.png"
+				small = "gfx/interface/advisors/RUS/RUS_anatoly_pepelyaev.png"
+			}
+		}
+		corps_commander = {
+			traits = { offensive_doctrine career_officer }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	RUS_mikhail_khanzhin = {
+		name = "Mikhail Khanzhin"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Khanzhin.png"
+				small = "gfx/interface/advisors/RUS/RUS_mikhail_khanzhin.png"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = RUS_mikhail_khanzhin_hc
+			traits = { army_artillery_2 }
+			cost = 100
+		}
+	}
+
+	RUS_vladimir_tolstov = {
+		name = "Vladimir Tolstov"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Tolstov.png"
+				small = "gfx/interface/advisors/RUS/RUS_vladimir_tolstov.png"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+
+	RUS_leonid_skipetrov = {
+		name = "Leonid Skipetrov"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Leonid_Skipetrov.png"
+				small = "gfx/interface/advisors/RUS/RUS_leonid_skipetrov.png"
+			}
+		}
+		corps_commander = {
+			traits = { commando }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+
+	RUS_vasily_boldyrev = {
+		name = "Vasily Boldyrev"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Vasily_Boldyrev.png"
+				small = "gfx/interface/advisors/RUS/RUS_vasily_boldyrev.png"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	RUS_boris_rezukhin = {
+		name = "Boris Rezukhin"
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/RUS/RUS_boris_rezukhin.png"
+				large = "gfx/leaders/RUS/Portrait_RUS_Boris_Rezukhin.png"
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader infantry_officer politically_connected }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+
+	RUS_roman_von_ungernsternberg = {
+		name = "Roman von Ungern-Sternberg"
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/RUS/RUS_roman_von_ungernsternberg.png"
+				large = "gfx/leaders/RUS/Portrait_RUS_Sternberg.png"
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader cavalry_leader brilliant_strategist }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+
+	RUS_urzhin_garmaev = {
+		name = "Urzhin Garmaev"
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/RUS/RUS_urzhin_garmaev.png"
+				large = "gfx/leaders/RUS/Portrait_RUS_Urzhin_Garmaev.png"
+			}
+		}
+		corps_commander = {
+			traits = { media_personality organizer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
 		}
 	}
 
@@ -647,11 +852,108 @@ characters = {
 			maneuvering_skill = 2
 			coordination_skill = 3
 		}
+	}
+
+	RUS_nestor_monastyrev = {
+		name = "Nestor Monastyrev"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Nestor_Monastyrev.png"
+				small = "gfx/interface/advisors/RUS/RUS_nestor_monastyrev.png"
+			}
+		}
+		navy_leader = {
+			traits = { seawolf }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
 		advisor = {
 			slot = navy_chief
-			idea_token = RUS_mikhail_kedrov
-			traits = { navy_chief_decisive_battle_1 }
+			idea_token = RUS_nestor_monastyrev
+			traits = { navy_chief_commerce_raiding_1 }
 			cost = 50
+		}
+	}
+
+	RUS_filipp_ivanov = {
+		name = "Filipp Ivanov"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Filipp_Ivanov.png"
+				small = "gfx/interface/advisors/RUS/RUS_filipp_ivanov.png"
+			}
+		}
+		navy_leader = {
+			traits = { ironside ground_pounder }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+
+	RUS_gordey_levchenko = {
+		name = "Gordey Levchenko"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Gordey_Levchenko.png"
+				small = "gfx/interface/advisors/RUS/RUS_gordey_levchenko.png"
+			}
+		}
+		navy_leader = {
+			traits = { green_water_expert }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 2
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = RUS_gordey_levchenko_navy_chief
+			available = {
+				not_already_hired_except_as = navy_chief
+			}
+			traits = { navy_chief_reform_1 }
+			cost = 50
+		}
+		advisor = {
+			slot = high_command
+			idea_token = RUS_gordey_levchenko_high_command
+			ledger = navy
+			available = {
+				not_already_hired_except_as = high_command
+			}
+			traits = { navy_anti_submarine_1 }
+			cost = 50
+		}
+	}
+
+	RUS_georgiy_stark = {
+		name = "Georgiy Stark"
+		portraits = {
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Georgy_Stark.png"
+				small = "gfx/interface/advisors/RUS/RUS_georgiy_stark.png"
+			}
+		}
+		navy_leader = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = RUS_georgiy_stark
+			traits = { navy_chief_maneuver_2 }
+			cost = 100
 		}
 	}
 

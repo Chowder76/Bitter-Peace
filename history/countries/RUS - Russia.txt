@@ -22,7 +22,8 @@ recruit_character = RUS_provisional_government
 recruit_character = RUS_nicholas_romanov
 recruit_character = SOV_anastasy_vonsyatsky
 recruit_character = RUS_pyotr_wrangel
-recruit_character = SOV_grigory_semyonov
+recruit_character = RUS_pavlo_skoropadskyi
+recruit_character = RUS_grigory_semyonov
 recruit_character = SOV_nikolay_ustryalov
 recruit_character = SOV_aleksandr_kazembek
 recruit_character = SOV_aleksandr_prokofyev_seversky
@@ -42,14 +43,29 @@ recruit_character = RUS_mikhail_levitov
 recruit_character = RUS_vladimir_manstein
 recruit_character = RUS_sergey_markov
 recruit_character = RUS_fyodor_abramov
+recruit_character = RUS_vyacheslav_naumenko
+recruit_character = RUS_pavel_bermondt_avalov
+recruit_character = RUS_abram_dragomirov
+recruit_character = RUS_anatoly_pepelyaev
+recruit_character = RUS_mikhail_khanzhin
+recruit_character = RUS_vladimir_tolstov
+recruit_character = RUS_leonid_skipetrov
+recruit_character = RUS_vasily_boldyrev
+recruit_character = RUS_boris_rezukhin
+recruit_character = RUS_roman_von_ungernsternberg
+recruit_character = RUS_urzhin_garmaev
 
 recruit_character = RUS_aleksandr_kolchak
 recruit_character = RUS_mikhail_kedrov
+recruit_character = RUS_nestor_monastyrev
+recruit_character = RUS_filipp_ivanov
+recruit_character = RUS_gordey_levchenko
+recruit_character = RUS_georgiy_stark
 
 recruit_character = SOV_pyotr_krasnov
 recruit_character = SOV_konstantin_nechayev
 recruit_character = SOV_aleksandr_rodzyanko
-recruit_character = SOV_andrey_shkuro
+recruit_character = RUS_andrey_shkuro
 recruit_character = SOV_anton_denikin
 
 ####
