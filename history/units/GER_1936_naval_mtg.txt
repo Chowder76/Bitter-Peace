@@ -3,13 +3,17 @@ units= {
 	##### NAVAL UNITS #####
 	
 	fleet = {
-		name = "Kriegsmarine"			
+		name = "Hochseeflotte"			
 		naval_base = 241  # Wilhemshaven
 		task_force = {				
 			name = "Hochseeflotte"
 			location = 241  # Wilhemshaven
 			ship = { name = "SMS Scharnhorst" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Scharnhorst Class" } } }
 			ship = { name = "SMS Gneisenau" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "Scharnhorst Class" } } }
+			ship = { name = "SMS Preußen" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Preußen Class" } } }
+			ship = { name = "SMS Westfalen" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Preußen Class" } } }
+			ship = { name = "SMS Rheinland" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Preußen Class" } } }
+			ship = { name = "SMS Lothringen" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Preußen Class" } } }
 			ship = { name = "SMS Deutschland" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Deutschland Class" } } }	
 			ship = { name = "SMS Admiral Scheer" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
 			ship = { name = "SMS Graf Spee" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Deutschland Class" } } }

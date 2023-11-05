@@ -29,7 +29,7 @@ GER_BB_IMPERIAL = {
 		12 = {"Hessen"} 
 		13 = {"Zähringen"} 
 		14 = {"Mecklenburg"} 
-		15 = {"Elsass"} 
+		15 = {"Elsaß"} 
 		16 = {"Lothringen"} 
 		17 = {"Hannover"} 
 		18 = {"Nassau"} 
@@ -46,7 +46,7 @@ GER_BB_IMPERIAL = {
 		29 = {"Ostfriesland"} 
 		30 = {"Oldenburg"} 
 		31 = {"Posen"} 
-		32 = {"Preussen"} 
+		32 = {"Preußen"} 
 		33 = {"Pillau"} 
 		34 = {"Helgoland"} 
 		35 = {"Schwaben"} 
@@ -81,8 +81,8 @@ GER_BC_IMPERIAL = {
 		3 = {"Goeben"} 
 		4 = {"Derfflinger"} 
 		5 = {"Holtzendorff"} 
-		6 = {"York"} 
-		7 = {"Von Mackensen"} 
+		6 = {"Yorck"} 
+		7 = {"Mackensen"} 
 		8 = {"Von Lettow-Vorbeck"} 
 		9 = {"Friedrich Barbarossa"} 
 		10 = {"Karl der Große"} 
@@ -107,7 +107,7 @@ GER_CA_IMPERIAL = {
 		1 = {"Admiral Graf Spee"}
 		2 = {"Admiral Hipper"} 
 		3 = {"Blücher"} 
-		4 = {"Prinz Eugen"} 
+		4 = {"Friedrich Carl"} 
 		5 = {"Seydlitz"} 
 		6 = {"Lützow"} 
 		7 = {"Roon"} 
@@ -117,7 +117,7 @@ GER_CA_IMPERIAL = {
 		11 = {"Vineta"}
 		12 = {"Siegfried"}
 		13 = {"Hansa"}
-		14 = {"Friedrich Carl"}
+		14 = {"Krockow"}
 		15 = {"Buddenbrock"}
 		16 = {"Bittenfeld"}
 		17 = {"Schwarzenberg"}
@@ -132,7 +132,6 @@ GER_CA_IMPERIAL = {
 		26 = {"Wrangel"}
 		27 = {"Daun"}
 		28 = {"Heyde"}
-		29 = {"Krockow"}
 	}
 }
 
@@ -328,13 +327,14 @@ GER_CV_IMPERIAL = {
 	ordered = {
 		1 = {"Graf Zeppelin"}
 		2 = {"Peter Strasser"}
-		3 = {"Seydlitz"}
+		3 = {"Max Immelman"}
 		4 = {"Europa"}
 		5 = {"Potsdam"}
 		6 = {"Otto Lilienthal"}
 		7 = {"Aurora"}
 		10 = {"Manfred von Richthofen"}
-		11 = {"Max Immelman"}
+		11 = {"Rhein"}
+		12 = {"Weser"}
 	}
 }
 GER_THEME_GERMANIC_IMPERIAL = {
@@ -500,7 +500,7 @@ GER_THEME_RIVERS_IMPERIAL = {
 
 	
 	ordered = {
-		1 = {"Rhein"}
+		1 = {"Havel"}
 		2 = {"Donau"} 
 		3 = {"Oder"} 
 		4 = {"Warnow"} 
@@ -522,12 +522,10 @@ GER_THEME_RIVERS_IMPERIAL = {
 		16 = {"Alf"}
 		17 = {"Neckar"}
 		18 = {"Sauer"}
-		19 = {"Weser"}
+		19 = {"Alster"}
 		20 = {"Aller"}
 		21 = {"Fulda"}
 		22 = {"Werra"}
-		23 = {"Alster"}
-		26 = {"Havel"}
 	}
 }
 
