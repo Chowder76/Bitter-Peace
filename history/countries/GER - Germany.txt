@@ -741,7 +741,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Fürst Bismarck Class"
+		name = "Tirpitz Class"
 		type = ship_hull_heavy_2
 		name_group = GER_BB_IMPERIAL
 		parent_version = 0
