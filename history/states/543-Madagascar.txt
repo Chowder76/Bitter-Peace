@@ -11,12 +11,18 @@ state={
 		owner = GAF
 		add_core_of = GAF
 		victory_points = {
-			5128 1
+			5128 15
 		}
 		buildings = {
 			infrastructure = 1
 			air_base = 1
+			5128 = {
+				naval_base = 1
+			}
 			5222 = {
+				naval_base = 1
+			}
+			8188 = {
 				naval_base = 1
 			}
 		}

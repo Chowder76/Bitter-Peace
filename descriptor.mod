@@ -4,5 +4,5 @@ tags={
 	"Alternative History"
 	"National Focuses"
 }
-supported_version="1.13.4"
+supported_version="1.13.5"
 path="C:/Users/Andrew/OneDrive/Documents/Paradox Interactive/Hearts of Iron IV/mod/Bitter-Peace"

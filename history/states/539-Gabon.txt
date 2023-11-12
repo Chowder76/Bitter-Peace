@@ -7,7 +7,7 @@ state={
 		add_core_of = GAB
 		add_core_of = GAF
 		victory_points = {
-			5139 1 
+			5139 4
 		}
 		buildings = {
 			infrastructure = 2

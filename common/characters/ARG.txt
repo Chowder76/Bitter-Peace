@@ -5,11 +5,48 @@ characters={
 			civilian={
 				large="gfx/leaders/ARG/Portrait_ARG_Agustin_Justo.png"
 			}
+			army={
+				small="gfx/interface/advisors/ARG/ARG_Agustin_Justo.png"
+			}
 		}
 		country_leader={
 			ideology=despotism
 			expire="1965.1.1.1"
 			id=-1
+		}
+		advisor={
+			cost = 100
+			
+			slot = theorist
+			idea_token = ARG_agustin_pedro_justo
+			available = {
+				not_already_hired_except_as = theorist
+			}
+			ledger = army
+				
+			traits = {
+				military_theorist
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = ARG_agustin_pedro_justo_army_chief
+			traits = { army_chief_offensive_2 }
+			available = {
+				not_already_hired_except_as = high_command
+			}
+			desc = ARG_agustin_pedro_justo_leader_desc
+			cost = 100
+			ai_will_do = { factor = 10 }
+		}
+		field_marshal={
+			traits={ war_hero trait_cautious organizer fast_planner }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
 		}
 	}
 	ARG_nimo_de_anquín={
@@ -59,17 +96,9 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=conservatism
 			expire="1965.1.1.1"
 			id=-1
-		}
-	}
-	ARG_senor_hitler={ #Empty Senor H. 
-		name=ARG_senor_hitler
-		portraits={
-			civilian={
-				large="GFX_portrait_south_america_generic_leader_1"
-			}
 		}
 	}
 	ARG_arturo_rawson={
@@ -80,8 +109,8 @@ characters={
 				small=GFX_portrait_Arturo_Rawson_small
 			}
 		}
-		field_marshal={
-			traits={ defensive_doctrine }
+		corps_commander={
+			traits={ cavalry_officer career_officer }
 			skill=3
 			attack_skill=4
 			defense_skill=3
@@ -95,16 +124,206 @@ characters={
 		portraits={
 			army={
 				large="gfx/leaders/ARG/Portrait_ARG_Juan_Pistarini.png"
-				small=GFX_portrait_Juan_Pistarini_small
+				small="gfx/interface/advisors/ARG/ARG_Juan_Pistarini.png"
 			}
 		}
 		corps_commander={
-			traits={ urban_assault_specialist fortress_buster }
+			traits={ urban_assault_specialist fortress_buster harsh_leader }
 			skill=3
-			attack_skill=1
+			attack_skill=2
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = ARG_juan_pistarini
+			traits = { army_chief_reform_2 }
+			cost = 100
+		}
+	}
+	ARG_pedro_pablo_ramirez={
+		name="Pedro Pablo Ramirez"
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ARG/Portrait_ARG_Pablo_Ramirez.png"
+			}
+			army={
+				large="gfx/leaders/ARG/Portrait_ARG_Pablo_Ramirez.png"
+				small="gfx/interface/advisors/ARG/ARG_Pablo_Ramirez.png"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ARG_pedro_pablo_ramirez
+			ledger = army
+			traits = { army_regrouping_2 }
+			cost = 100
+			ai_will_do = { factor = 5 }
+		}
+		field_marshal={
+			traits={ cavalry_officer politically_connected swamp_fox }
+			skill=3
+			attack_skill=4
 			defense_skill=2
-			planning_skill=4
-			logistics_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ARG_pedro_aramburu={
+		name="Pedro Eugenio Aramburu"
+		portraits={
+			army={
+				large="gfx/leaders/ARG/Portrait_ARG_Aramburu.png"
+				small="gfx/interface/advisors/ARG/ARG_Aramburu.png"
+			}
+		}
+		field_marshal={
+			traits={ infantry_officer inflexible_strategist }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = ARG_pedro_eugenio_aramburu
+			traits = { army_chief_defensive_2 }
+			cost = 100
+		}
+	}
+	ARG_enrique_mosconi={
+		name="Enrique Mosconi"
+		portraits={
+			army={
+				large="gfx/leaders/ARG/Portrait_ARG_Mosconi.png"
+				small="gfx/interface/advisors/ARG/ARG_Mosconi.png"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer career_officer trait_engineer }
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=-1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ARG_enrique_mosconi
+			ledger = army
+			traits = { army_logistics_2 }
+			cost = 100
+			ai_will_do = { factor = 4 }
+		}
+	}
+	ARG_manuel_savio={
+		name="Manuel Savio"
+		portraits={
+			army={
+				large="gfx/leaders/ARG/Portrait_ARG_Manuel_Savio.png"
+			}
+		}
+		corps_commander={
+			traits={ career_officer politically_connected }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_sosa_molina={
+		name="Humberto Sosa Molina"
+		portraits={
+			army={
+				large="gfx/leaders/ARG/Portrait_ARG_Soza_Molina.png"
+			}
+		}
+		corps_commander={
+			traits={ career_officer politically_connected }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ARG_juan_domingo_peron={
+		name="Juan Domingo Peron"
+		portraits={
+			army={
+				large="gfx/leaders/ARG/Portrait_ARG_Peron.png"
+			}
+			civilian = {
+				large = "gfx/leaders/ARG/Portrait_ARG_Juan_Domingo_Peron.png"
+			}
+		}
+		corps_commander={
+			traits={ media_personality politically_connected trait_engineer fortress_buster }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ARG_domecq_garcia={
+		name="Manuel Domecq Garcia"
+		portraits={
+			army={
+				large="gfx/leaders/ARG/Portrait_ARG_Domecq_Garcia.png"
+				small="gfx/interface/advisors/ARG/ARG_Domecq_Garcia.png"
+			}
+		}
+		corps_commander={
+			traits={ old_guard career_officer infantry_officer trait_engineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = ARG_manuel_domecq_garcia_army
+			traits = { army_chief_planning_1 }
+			desc = ARG_manuel_domecq_garcia_commander_desc
+			cost = 50
+		}
+	}
+	ARG_edelmiro_farrell={
+		name="Edelmiro Julián Farrell"
+		portraits={
+			army={
+				large="gfx/leaders/ARG/Portrait_ARG_Edelmiro_Farrell.png"
+				small="gfx/interface/advisors/ARG/ARG_Edelmiro_Farrell.png"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ARG_edelmiro_julian_farrell
+			ledger = army
+			traits = { army_infantry_2 }
+			cost = 100
+			ai_will_do = { factor = 10 }
+		}
+		corps_commander={
+			traits={ infantry_officer trait_mountaineer trickster }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
 			legacy_id=-1
 		}
 	}
@@ -112,7 +331,7 @@ characters={
 		name="Alberto Teisaire"
 		portraits={
 			army={
-				large=GFX_portrait_Alberto_Teisaire
+				large="gfx/leaders/ARG/Portrait_ARG_Alberto_Teisaire.png"
 				small=GFX_portrait_Alberto_Teisaire_small
 			}
 		}
@@ -124,6 +343,77 @@ characters={
 			maneuvering_skill=3
 			coordination_skill=3
 			legacy_id=-1
+		}
+	}
+	ARG_eleazar_videla={
+		name="Eleazar Videla"
+		portraits={
+			army={
+				large="gfx/leaders/ARG/Portrait_ARG_Eleazar_Videla.png"
+				small="gfx/interface/advisors/ARG/ARG_Eleazar_Videla.png"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = ARG_eleazar_videla
+			ledger = navy
+				allowed = {
+					original_tag = ARG
+				}
+				traits = {
+					navy_capital_ship_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+		}
+		navy_leader={
+			traits={ }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=2
+			legacy_id=-1
+		}
+	}
+	ARG_isaac_rojas={
+		name="Isaac Francisco Rojas"
+		portraits={
+			army={
+				large="gfx/leaders/ARG/Portrait_ARG_Isaac_Rojas.png"
+				small="gfx/interface/advisors/ARG/ARG_Isaac_Rojas.png"
+			}
+		}
+		navy_leader={
+			traits={ }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 2
+			legacy_id=-1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ARG_isaac_francisco_rojas_high_command
+			ledger = navy
+			available = {
+				not_already_hired_except_as = high_command
+			}
+			traits = { navy_submarine_2 }
+			cost = 100
+		}
+		advisor = {
+			slot = theorist
+			idea_token = ARG_isaac_francisco_rojas_theorist
+			ledger = navy
+			available = {
+				not_already_hired_except_as = theorist
+			}
+			traits = { naval_theorist }
+			cost = 100
 		}
 	}
 	ARG_uribaldi_diaz_brittenberg={
@@ -152,78 +442,6 @@ characters={
 			}
 		}
 	}
-	ARG_agustin_pedro_justo={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = ARG_agustin_pedro_justo
-			ledger = army
-				allowed = {
-					original_tag = ARG
-				}
-				
-				traits = {
-					military_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Agustín Pedro Justo"
-		portraits={
-			army={
-				small="GFX_idea_generic_army_south_america_5"
-			}
-		}
-	}
-	ARG_edelmiro_farrell={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = ARG_edelmiro_farrell
-			ledger = navy
-				allowed = {
-					original_tag = ARG
-				}
-				
-				traits = {
-					naval_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Edelmiro Farrell"
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_south_america_1"
-			}
-		}
-	}
-	ARG_francisco_m_velez={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = ARG_francisco_m_velez
-			ledger = army
-				allowed = {
-					original_tag = ARG
-				}
-				traits = {
-					army_regrouping_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Francisco M. Velez"
-		portraits={
-			army={
-				small="GFX_idea_generic_army_south_america_1"
-			}
-		}
-	}
 	ARG_jose_tamborni={
 		advisor={
 			
@@ -246,31 +464,6 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_generic_air_south_america_2"
-			}
-		}
-	}
-	ARG_manuel_a_rodriguez={
-		advisor={
-			
-			
-			slot = army_chief
-			idea_token = ARG_manuel_a_rodriguez
-			allowed = {
-					original_tag = ARG
-				}
-				traits = {
-					army_chief_offensive_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Manuel A. Rodriguez"
-		portraits={
-			army={
-				small="GFX_idea_generic_army_south_america_3"
 			}
 		}
 	}
@@ -347,31 +540,6 @@ characters={
 			}
 		}
 	}
-	ARG_pedro_pablo_ramirez={
-		advisor={
-			
-			
-			slot = army_chief
-			idea_token = ARG_pedro_pablo_ramirez
-			allowed = {
-					original_tag = ARG
-				}
-				traits = {
-					army_chief_defensive_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Pedro Pablo Ramirez"
-		portraits={
-			army={
-				small="GFX_idea_generic_army_south_america_2"
-			}
-		}
-	}
 	ARG_heriberto_la_galine={
 		advisor={
 			
@@ -394,58 +562,6 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_south_america_1"
-			}
-		}
-	}
-	ARG_thomas_martinez={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = ARG_thomas_martinez
-			ledger = army
-				allowed = {
-					original_tag = ARG
-				}
-				traits = {
-					army_logistics_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Thomas Martínez"
-		portraits={
-			army={
-				small="GFX_idea_generic_army_south_america_4"
-			}
-		}
-	}
-	ARG_eleazar_videla={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = ARG_eleazar_videla
-			ledger = navy
-				allowed = {
-					original_tag = ARG
-				}
-				traits = {
-					navy_capital_ship_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Eleazar Videla"
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_south_america_2"
 			}
 		}
 	}

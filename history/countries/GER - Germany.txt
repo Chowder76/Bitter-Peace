@@ -182,6 +182,11 @@ create_faction = Axis
 add_to_faction = GER
 add_to_faction = GAF
 
+set_autonomy = {
+	target = GAF
+	autonomous_state = autonomy_integrated_puppet
+}
+
 
 add_ideas = {
 	sour_loser
