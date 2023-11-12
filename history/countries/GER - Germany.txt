@@ -199,6 +199,7 @@ recruit_character = GER_konrad_adenauer
 recruit_character = GER_heinrich_class
 recruit_character = GER_albert_kesselring
 recruit_character = GER_alfred_saalwachter
+recruit_character = GER_werner_von_blomberg
 recruit_character = GER_erhard_milch
 recruit_character = GER_erich_bey
 recruit_character = GER_erich_raeder
@@ -242,6 +243,8 @@ recruit_character = GER_walther_wever
 recruit_character = GER_werner_von_fritsch
 recruit_character = GER_wilhelm_keitel
 recruit_character = GER_wilhelm_marschall
+recruit_character = GER_willy_von_nordeck
+recruit_character = GER_eberhard_von_mackensen
 
 recruit_character = GER_wilhelm_ritter_von_leeb
 recruit_character = GER_wolfram_von_richthofen
@@ -265,8 +268,6 @@ recruit_character = GER_kurt_schumacher
 recruit_character = GER_wilhelm_ii
 recruit_character = GER_wilhelm_iii
 recruit_character = GER_august_von_mackensen
-
-recruit_character = GER_alexander_von_falkenhausen #Not visible unless recalled from China
 
 
 if = {
