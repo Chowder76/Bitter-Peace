@@ -84,7 +84,7 @@ GER_BC_IMPERIAL = {
 		3 = {"Goeben"} 
 		4 = {"Derfflinger"} 
 		5 = {"Holtzendorff"} 
-		6 = {"Yorck"} 
+		6 = {"Schlieffen"}
 		7 = {"Mackensen"} 
 		8 = {"Von Lettow-Vorbeck"} 
 		9 = {"Friedrich Barbarossa"} 
@@ -92,8 +92,9 @@ GER_BC_IMPERIAL = {
 		11 = {"Prinz Eitel Friedrich"}
 		12 = {"Victoria Louise"}
 		13 = {"Prinz Heinrich"}
-		14 = {"Schlieffen"}
 		15 = {"Zieten"}
+		16 = {"Prinz Adalbert"}
+		17 = {"Graf von Waldersee"}
 	}
 }
 GER_CA_IMPERIAL = {
@@ -137,6 +138,7 @@ GER_CA_IMPERIAL = {
 		26 = {"Schill"}
 		27 = {"Daun"}
 		28 = {"Heyde"}
+		29 = {"Yorck"}
 	}
 }
 
