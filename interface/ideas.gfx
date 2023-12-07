@@ -2306,7 +2306,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_schneider"
-		texturefile = "gfx/interface/ideas/idea_schneider.dds"
+		texturefile = "gfx/interface/companies/FRA/FRA_schneider.png"
 	}
 	spriteType = {
 		name = "GFX_idea_morane_saulnier"
@@ -2322,7 +2322,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_levasseur"
-		texturefile = "gfx/interface/ideas/idea_levasseur.dds"
+		texturefile = "gfx/interface/companies/FRA/FRA_levasseur.png"
 	}
 	spriteType = {
 		name = "GFX_idea_fcm"
@@ -3460,7 +3460,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_idea_osaka_army_arsenal"
-		texturefile = "gfx/interface/ideas/idea_osaka_army_arsenal.dds"
+		texturefile = "gfx/interface/companies/JAP/JAP_osaka_army_arsenal.png"
 	}		
 	
 	spriteType = {
@@ -3490,7 +3490,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_idea_nakajima"
-		texturefile = "gfx/interface/ideas/idea_nakajima.dds"
+		texturefile = "gfx/interface/companies/JAP/JAP_nakajima.png"
 	}	
 	
 	spriteType = {
@@ -7941,7 +7941,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_idea_Cockatoo_doe"
-		texturefile = "gfx//interface//ideas//idea_Cockatoo_doe.dds"
+		texturefile = "gfx/interface/companies/AST/AST_cockatoo_island.png"
 	}
 	SpriteType = {
 		name = "GFX_idea_com_aircraft_corporation"
@@ -7949,11 +7949,11 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_idea_new_south_wales_rc"
-		texturefile = "gfx//interface//ideas//idea_new_south_wales_rc.dds"
+		texturefile = "gfx/interface/companies/AST/AST_new_south_wales.png"
 	}
 	SpriteType = {
 		name = "GFX_idea_lysaghts_works"
-		texturefile = "gfx//interface//ideas//idea_lysaghts_works.dds"
+		texturefile = "gfx/interface/companies/AST/AST_lysaghts_works_kr.png"
 	}
 
 	### BRITISH RAJ ###
@@ -7985,7 +7985,7 @@ spriteTypes = {
 	### CANADA ###
 	SpriteType = {
 		name = "GFX_idea_canadian_car_foundry"
-		texturefile = "gfx//interface//ideas//idea_canadian_car_foundry.dds"
+		texturefile = "gfx/interface/companies/CAN/CAN_canadian_car.png"
 	}
 	SpriteType = {
 		name = "GFX_idea_halifax_shipyard"
@@ -8009,7 +8009,11 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_de_havilland"
-		texturefile = "gfx/interface/ideas/idea_de_havilland.dds"
+		texturefile = "gfx/interface/companies/CAN/CAN_de_havilland_canada.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fairchild_aircraft_ltd"
+		texturefile = "gfx/interface/companies/CAN/CAN_fairey_aviation_canada.png"
 	}
 
 	### NEW ZEALAND ###
