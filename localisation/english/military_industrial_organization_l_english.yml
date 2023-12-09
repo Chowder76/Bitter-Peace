@@ -405,8 +405,13 @@ JAP_sasebo_naval_arsenal_organization: "$sasebo_naval_arsenal$"
 JAP_tokyo_arsenal_organization: "$tokyo_arsenal$"
 JAP_osaka_army_arsenal_artillery_organization: "$osaka_army_arsenal$"
 JAP_nissan_organization: "$nissan$"
+JAP_toyota_organisation: "$toyota$"
+JAP_isuzu_organisation: "$isuzu$"
 
 JAP_osaka_army_arsenal_organization: "$osaka_army_arsenal$"
+JAP_ishikawajima_organisation: "$ishikawajima$"
+JAP_hitachi_organisation: "$hitachi$"
+JAP_nagoya_arsenal_organisation: "$nagoya_arsenal$"
 
 ### TRAITS ###
 

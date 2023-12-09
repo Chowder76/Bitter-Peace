@@ -3467,6 +3467,31 @@ spriteTypes = {
 		name = "GFX_idea_nissan"
 		texturefile = "gfx/interface/ideas/idea_nissan.dds"
 	}	
+
+	spriteType = {
+		name = "GFX_idea_toyota"
+		texturefile = "gfx/interface/companies/JAP/JAP_toyota.png"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_isuzu"
+		texturefile = "gfx/interface/companies/JAP/JAP_isuzu.png"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_ishikawajima"
+		texturefile = "gfx/interface/companies/JAP/JAP_Ishikawajima_Heavy_Industries.png"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_hitachi"
+		texturefile = "gfx/interface/companies/JAP/JAP_hitachi.png"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_nagoya_arsenal"
+		texturefile = "gfx/interface/companies/JAP/JAP_nagoya_arsenal.png"
+	}	
 	
 	spriteType = {
 		name = "GFX_idea_tokyo_arsenal"

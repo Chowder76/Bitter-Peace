@@ -32,7 +32,7 @@ characters={
 		name=JAP_tetsu_katayama
 		portraits={
 			civilian={
-				large="GFX_Portrait_tetsu_katayama"
+				large="gfx/leaders/JAP/Portrait_JAP_Katayama_Tetsu_KR.png"
 			}
 		}
 		country_leader={
@@ -47,7 +47,7 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_tomoyuki_yamashita"
-				large=GFX_portrait_JAP_tomoyuki_yamashita
+				large="gfx/leaders/JAP/Portrait_JAP_Yamashita_Tomoyuki.png"
 			}
 		}
 		advisor={
@@ -79,7 +79,7 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_hisaichi_terauchi"
-				large=GFX_portrait_JAP_hisaichi_terauchi
+				large="gfx/leaders/JAP/Portrait_JAP_Terauchi_Hisaichi.png"
 			}
 		}
 		advisor={
@@ -111,7 +111,7 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_shunroku_hata"
-				large=GFX_portrait_JAP_shunroku_hata
+				large="gfx/leaders/JAP/Portrait_JAP_Hata_Shunroku.png"
 			}
 		}
 		advisor={
@@ -145,7 +145,7 @@ characters={
 		name=JAP_akira_muto
 		portraits={
 			army={
-				large=GFX_portrait_JAP_akira_muto
+				large="gfx/leaders/JAP/Portrait_JAP_Muto_Akira.png"
 				small=GFX_portrait_JAP_akira_muto_small
 			}
 		}
@@ -164,7 +164,7 @@ characters={
 		name=JAP_kanji_ishiwara
 		portraits={
 			army={
-				large=GFX_portrait_JAP_kanji_ishiwara
+				large="gfx/leaders/JAP/Portrait_JAP_Ishiwara_Kanji.png"
 				small=GFX_portrait_JAP_kanji_ishiwara_small
 			}
 		}
@@ -183,7 +183,7 @@ characters={
 		name=JAP_shizuichi_tanaka
 		portraits={
 			army={
-				large=GFX_portrait_JAP_shizuichi_tanaka
+				large="gfx/leaders/JAP/Portrait_JAP_Tanaka_Shizuichi.png"
 				small=GFX_portrait_JAP_shizuichi_tanaka_small
 			}
 		}
@@ -203,7 +203,7 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_yasuji_okamura"
-				large=GFX_portrait_JAP_yasuji_okamura
+				large="gfx/leaders/JAP/Portrait_JAP_Okamura_Yasuji.png"
 			}
 		}
 		advisor={
@@ -219,14 +219,6 @@ characters={
 			cost = 100
 			ai_will_do = {
 				factor = 2.500
-				modifier = {
-					factor = 1.500
-					not = {
-						JAP = {
-							has_war_with = USA
-						}
-					}
-				}
 			}
 		}
 		
@@ -245,7 +237,7 @@ characters={
 		name=JAP_toshizo_nishio
 		portraits={
 			army={
-				large=GFX_portrait_JAP_toshizo_nishio
+				large="gfx/leaders/JAP/Portrait_JAP_Nishio_Toshizo.png"
 				small=GFX_portrait_JAP_toshizo_nishio_small
 			}
 		}
@@ -264,7 +256,7 @@ characters={
 		name=JAP_rikichi_ando
 		portraits={
 			army={
-				large=GFX_portrait_JAP_rikichi_ando
+				large="gfx/leaders/JAP/Portrait_JAP_Ando_Rikichi.png"
 				small=GFX_portrait_JAP_rikichi_ando_small
 			}
 		}
@@ -283,7 +275,7 @@ characters={
 		name=JAP_naruhiko_higashikuni
 		portraits={
 			army={
-				large=GFX_portrait_JAP_naruhiko_higashikuni
+				large="gfx/leaders/JAP/Portrait_JAP_Higashikuni_Naruhiko.png"
 				small=GFX_portrait_JAP_naruhiko_higashikuni_small
 			}
 		}
@@ -302,7 +294,7 @@ characters={
 		name=JAP_seishiro_itagaki
 		portraits={
 			army={
-				large=GFX_portrait_JAP_seishiro_itagaki
+				large="gfx/leaders/JAP/Portrait_JAP_Itagaki_Seishiro.png"
 				small=GFX_portrait_JAP_seishiro_itagaki_small
 			}
 		}
@@ -321,7 +313,7 @@ characters={
 		name=JAP_takashi_sakai
 		portraits={
 			army={
-				large=GFX_portrait_JAP_takashi_sakai
+				large="gfx/leaders/JAP/Portrait_JAP_Sakai_Takashi.png"
 				small=GFX_portrait_JAP_takashi_sakai_small
 			}
 		}
@@ -341,7 +333,7 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_kenji_doihara"
-				large=GFX_portrait_JAP_kenji_doihara
+				large="gfx/leaders/JAP/Portrait_JAP_Doihara_Kenji.png"
 			}
 		}
 		advisor={
@@ -374,7 +366,7 @@ characters={
 		name=JAP_kenkichi_ueda
 		portraits={
 			army={
-				large=GFX_portrait_JAP_kenkichi_ueda
+				large="gfx/leaders/JAP/Portrait_JAP_Ueda_Kenkichi.png"
 				small=GFX_portrait_JAP_kenkichi_ueda_small
 			}
 		}
@@ -393,7 +385,7 @@ characters={
 		name=JAP_shigeru_honjo
 		portraits={
 			army={
-				large=GFX_portrait_JAP_shigeru_honjo
+				large="gfx/leaders/JAP/Portrait_JAP_Honjo_Shigeru.png"
 				small=GFX_portrait_JAP_shigeru_honjo_small
 			}
 		}
@@ -412,7 +404,7 @@ characters={
 		name=JAP_yoshijiro_umezu
 		portraits={
 			army={
-				large=GFX_portrait_JAP_yoshijiro_umezu
+				large="gfx/leaders/JAP/Portrait_JAP_Umezu_Yoshijiro.png"
 				small=GFX_portrait_JAP_yoshijiro_umezu_small
 			}
 		}
@@ -431,7 +423,7 @@ characters={
 		name=JAP_otozo_yamada
 		portraits={
 			army={
-				large=GFX_portrait_JAP_otozo_yamada
+				large="gfx/leaders/JAP/Portrait_JAP_Yamada_Otozo.png"
 				small=GFX_portrait_JAP_otozo_yamada_small
 			}
 		}
@@ -450,7 +442,7 @@ characters={
 		name=JAP_hatazo_adachi
 		portraits={
 			army={
-				large=GFX_portrait_JAP_hatazo_adachi
+				large="gfx/leaders/JAP/Portrait_JAP_Adachi_Hatazo.png"
 				small=GFX_portrait_JAP_hatazo_adachi_small
 			}
 		}
@@ -469,7 +461,7 @@ characters={
 		name=JAP_iwane_matsui
 		portraits={
 			army={
-				large=GFX_portrait_JAP_iwane_matsui
+				large="gfx/leaders/JAP/Portrait_JAP_Matsui_Iwane.png"
 				small=GFX_portrait_JAP_iwane_matsui_small
 			}
 		}
@@ -488,7 +480,7 @@ characters={
 		name=JAP_sadao_araki
 		portraits={
 			army={
-				large=GFX_portrait_JAP_sadao_araki
+				large="gfx/leaders/JAP/Portrait_JAP_Araki_Sadao.png"
 				small=GFX_portrait_JAP_sadao_araki_small
 			}
 		}
@@ -507,7 +499,7 @@ characters={
 		name=JAP_keisuke_fujie
 		portraits={
 			army={
-				large=GFX_portrait_JAP_keisuke_fujie
+				large="gfx/leaders/JAP/Portrait_JAP_Fujie_Keisuke.png"
 				small=GFX_portrait_JAP_keisuke_fujie_small
 			}
 		}
@@ -526,7 +518,7 @@ characters={
 		name=JAP_kiichiro_higuchi
 		portraits={
 			army={
-				large=GFX_portrait_JAP_kiichiro_higuchi
+				large="gfx/leaders/JAP/Portrait_JAP_Higuchi_Kiichiro.png"
 				small=GFX_portrait_JAP_kiichiro_higuchi_small
 			}
 		}
@@ -545,7 +537,7 @@ characters={
 		name=JAP_masaharu_homma
 		portraits={
 			army={
-				large=GFX_portrait_JAP_masaharu_homma
+				large="gfx/leaders/JAP/Portrait_JAP_Homma_Masaharu.png"
 				small=GFX_portrait_JAP_masaharu_homma_small
 			}
 		}
@@ -564,7 +556,7 @@ characters={
 		name=JAP_harukichi_hyakutake
 		portraits={
 			army={
-				large=GFX_portrait_JAP_harukichi_hyakutake
+				large="gfx/leaders/JAP/Portrait_JAP_Hyakutake_Harukichi.png"
 				small=GFX_portrait_JAP_harukichi_hyakutake_small
 			}
 		}
@@ -583,7 +575,7 @@ characters={
 		name=JAP_jo_iimura
 		portraits={
 			army={
-				large=GFX_portrait_JAP_jo_iimura
+				large="gfx/leaders/JAP/Portrait_JAP_Iimura_Jo.png"
 				small=GFX_portrait_JAP_jo_iimura_small
 			}
 		}
@@ -603,9 +595,7 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_hitoshi_imamura"
-			}
-			army={
-				large=GFX_portrait_JAP_hitoshi_imamura
+				large="gfx/leaders/JAP/Portrait_JAP_Imamura_Hitoshi.png"
 			}
 		}
 		advisor={
@@ -658,7 +648,7 @@ characters={
 		name=JAP_kuniaki_koiso
 		portraits={
 			army={
-				large=GFX_portrait_JAP_kuniaki_koiso
+				large="gfx/leaders/JAP/Portrait_JAP_Koiso_Kuniaki.png"
 				small=GFX_portrait_JAP_kuniaki_koiso_small
 			}
 		}
@@ -678,9 +668,7 @@ characters={
 		portraits={
 			navy={
 				small="GFX_idea_isoroku_yamamoto"
-			}
-			army={
-				large=GFX_portrait_JAP_isoroku_yamamoto
+				large="gfx/leaders/JAP/Portrait_JAP_Yamamoto_Isoroku.png"
 			}
 		}
 		advisor={
@@ -712,7 +700,7 @@ characters={
 		name=JAP_mineichi_koga
 		portraits={
 			army={
-				large=GFX_portrait_JAP_mineichi_koga
+				large="gfx/leaders/JAP/Portrait_JAP_Koga_Mineichi.png"
 				small=GFX_portrait_JAP_mineichi_koga_small
 			}
 		}
@@ -725,13 +713,20 @@ characters={
 			coordination_skill=3
 			legacy_id=0
 		}
+		advisor = {
+			slot = theorist
+			idea_token = JAP_koga_mineichi_t
+			ledger = navy
+			traits = { grand_fleet_proponent }
+			cost = 150
+		}
 	}
 
 	JAP_kiyoshi_hasegawa={
 		name=JAP_kiyoshi_hasegawa
 		portraits={
 			army={
-				large=GFX_portrait_JAP_kiyoshi_hasegawa
+				large="gfx/leaders/JAP/Portrait_JAP_Hasegawa_Kiyoshi.png"
 				small=GFX_portrait_JAP_kiyoshi_hasegawa_small
 			}
 		}
@@ -750,7 +745,7 @@ characters={
 		name=JAP_shigeyoshi_inoue
 		portraits={
 			army={
-				large=GFX_portrait_JAP_shigeyoshi_inoue
+				large="gfx/leaders/JAP/Portrait_JAP_Inoue_Shigeyoshi.png"
 				small=GFX_portrait_JAP_shigeyoshi_inoue_small
 			}
 		}
@@ -769,7 +764,7 @@ characters={
 		name=JAP_nobutake_kondo
 		portraits={
 			army={
-				large=GFX_portrait_JAP_nobutake_kondo
+				large="gfx/leaders/JAP/Portrait_JAP_Kondo_Nobutake.png"
 				small=GFX_portrait_JAP_nobutake_kondo_small
 			}
 		}
@@ -788,7 +783,7 @@ characters={
 		name=JAP_takeo_takagi
 		portraits={
 			army={
-				large=GFX_portrait_JAP_takeo_takagi
+				large="gfx/leaders/JAP/Portrait_JAP_Takagi_Takeo.png"
 				small=GFX_portrait_JAP_takeo_takagi_small
 			}
 		}
@@ -808,9 +803,7 @@ characters={
 		portraits={
 			navy={
 				small="GFX_idea_soemu_toyoda"
-			}
-			army={
-				large=GFX_portrait_JAP_soemu_toyoda
+				large="gfx/leaders/JAP/Portrait_JAP_Toyoda_Soemu.png"
 			}
 		}
 		advisor={
@@ -844,7 +837,7 @@ characters={
 		name=JAP_jisaburo_ozawa
 		portraits={
 			army={
-				large=GFX_portrait_JAP_jisaburo_ozawa
+				large="gfx/leaders/JAP/Portrait_JAP_Ozawa_Jisaburo.png"
 				small=GFX_portrait_JAP_jisaburo_ozawa_small
 			}
 		}
@@ -857,13 +850,19 @@ characters={
 			coordination_skill=4
 			legacy_id=0
 		}
+		advisor = {
+			slot = air_chief
+			idea_token = JAP_ozawa_jisaburo
+			traits = { air_chief_safety_3 }
+			cost = 200
+		}
 	}
 
 	JAP_zengo_yoshida={
 		name=JAP_zengo_yoshida
 		portraits={
 			army={
-				large=GFX_portrait_JAP_zengo_yoshida
+				large="gfx/leaders/JAP/Portrait_JAP_Yoshida_Zengo.png"
 				small=GFX_portrait_JAP_zengo_yoshida_small
 			}
 		}
@@ -901,7 +900,7 @@ characters={
 		name=JAP_tadashige_daigo
 		portraits={
 			army={
-				large=GFX_portrait_JAP_tadashige_daigo
+				large="gfx/leaders/JAP/Portrait_JAP_Daigo_Tadashige.png"
 				small=GFX_portrait_JAP_tadashige_daigo_small
 			}
 		}
@@ -920,7 +919,7 @@ characters={
 		name=JAP_gengo_hyakutake
 		portraits={
 			army={
-				large=GFX_portrait_JAP_gengo_hyakutake
+				large="gfx/leaders/JAP/Portrait_JAP_Hyakutake_Gengo.png"
 				small=GFX_portrait_JAP_gengo_hyakutake_small
 			}
 		}
@@ -1082,16 +1081,22 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_hajime_sugiyama"
+				large="gfx/leaders/JAP/Portrait_JAP_Sugiyama_Hajime.png"
 			}
+		}
+		field_marshal = {
+			traits = { JAP_samurai_lineage }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 3
 		}
 		advisor={
 			slot = army_chief
 			idea_token = hajime_sugiyama
 			allowed = {
 				original_tag = JAP
-			}
-			available = {
-				has_completed_focus = JAP_army_expansion
 			}
 			traits = {
 				army_chief_drill_3
@@ -1360,7 +1365,15 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_chuichi_nagumo"
+				large="gfx/leaders/JAP/Portrait_JAP_Nagumo_Chuichi.png"
 			}
+		}
+		navy_leader = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
 		}
 		advisor={
 			slot = high_command
