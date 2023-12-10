@@ -14,20 +14,6 @@ characters={
 		}
 	}
 
-	GER_konrad_adenauer={
-		name=GER_konrad_adenauer
-		portraits={
-			civilian={
-				large=GFX_portrait_GER_konrad_adenauer
-			}
-		}
-		country_leader={
-			ideology=conservatism
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-
 	GER_wilhelm_pieck={
 		name=GER_wilhelm_pieck
 		portraits={
@@ -52,11 +38,23 @@ characters={
 		}
 		country_leader = {
 			expire = "1965.1.1"
-			ideology = despotism
-			traits = {
-				anti_democrat
-				imperial_connections				
-			}
+			ideology = socialism
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+		}
+		country_leader={
+			ideology=authoritarian_democrat_subtype
+			expire="1965.1.1.1"
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
 		}
 	}
 
@@ -66,6 +64,20 @@ characters={
 			civilian={
 				large="gfx/leaders/GER/Portrait_GER_Wilhelm_III_kr.png"
 			}	
+		}
+	}
+
+	GER_konrad_adenauer={
+		name=GER_konrad_adenauer
+		portraits={
+			civilian={
+				large=GFX_portrait_GER_konrad_adenauer
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
 		}
 	}
 
@@ -1175,38 +1187,6 @@ characters={
 	### AIR CHIEFS ###
 
 	# Kesselring up there
-
-	GER_hermann_goring={
-		name=GER_hermann_goring
-		portraits={
-			army={
-				small="GFX_idea_goering"
-			}
-			civilian={
-				large=GFX_portrait_GER_hermann_goring
-			}
-		}
-		advisor={
-			slot = air_chief
-			idea_token = goering
-			allowed = {
-				original_tag = GER
-			}
-			available = {
-				or = {
-					has_government = fascism
-					has_country_flag = GER_reinstated_nazi_leadership
-				}
-			}
-			traits = {
-				air_chief_ground_support_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 2.000
-			}
-		}
-	}
 
 	GER_ritter_von_greim={
 		name=GER_ritter_von_greim

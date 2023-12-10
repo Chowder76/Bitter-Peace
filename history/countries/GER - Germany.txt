@@ -167,15 +167,19 @@ set_stability = 0.75
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = authoritarian_democrat
 	last_election = "1933.3.5"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 20
-	neutrality = 60
-	communism = 20
+	communism = 5
+	social_democrat = 10
+	social_liberal = 24
+	democratic = 12
+	authoritarian_democrat = 38
+	neutrality = 8
+	fascism = 3
 }
 
 create_faction = Axis
@@ -195,6 +199,8 @@ add_ideas = {
 }
 
 recruit_character = GER_wilhelm_pieck
+recruit_character = GER_wilhelm_ii
+recruit_character = GER_wilhelm_iii
 recruit_character = GER_konrad_adenauer
 recruit_character = GER_heinrich_class
 recruit_character = GER_albert_kesselring
@@ -217,7 +223,6 @@ recruit_character = GER_friedrich_paulus
 recruit_character = GER_friedrich_schulz
 recruit_character = GER_georg_von_kuchler
 recruit_character = GER_gerd_von_rundstedt
-recruit_character = GER_hermann_goring
 recruit_character = GER_gotthard_heinrici
 recruit_character = GER_gunther_lutjens
 recruit_character = GER_gunther_von_kluge
@@ -265,8 +270,6 @@ recruit_character = GER_joseph_goebbels
 recruit_character = GER_konstantin_von_neurath
 recruit_character = GER_alfred_hugenberg
 recruit_character = GER_kurt_schumacher
-recruit_character = GER_wilhelm_ii
-recruit_character = GER_wilhelm_iii
 recruit_character = GER_august_von_mackensen
 
 
