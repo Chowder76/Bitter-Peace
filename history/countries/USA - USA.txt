@@ -176,7 +176,7 @@ set_politics = {
 }
 set_popularities = {
 	social_liberal = 50
-	democratic = 49
+	social_conservative = 49
 	communism = 1
 }
 

@@ -182,7 +182,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 19
+	social_conservative = 19
 	fascism = 80
 	communism = 1
 }

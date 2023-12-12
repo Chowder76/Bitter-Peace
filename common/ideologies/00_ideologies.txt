@@ -144,7 +144,7 @@ ideologies = {
 		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 	}
 
-	democratic = {
+	social_conservative = {
 
 		types = {
 

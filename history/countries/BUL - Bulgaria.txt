@@ -29,7 +29,7 @@ add_ideas = { #VANILLA
 
 #POLITICS
 set_popularities = { #VANILLA
-	democratic = 5
+	social_conservative = 5
 	fascism = 35
 	neutrality = 60
 }
