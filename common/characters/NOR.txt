@@ -9,20 +9,37 @@ characters={
 #################################
 #################################
 
+	NOR_king_haakon_vii={ # King 
+		name="Haakon VII"
+		portraits={
+			civilian={
+				large="gfx/leaders/NOR/Portrait_Norway_Haakon_VII.png"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}	
+
 	NOR_johan_nygaardsvold={ #Default Democratic Leader
 		name=NOR_johan_nygaardsvold
 		portraits={
 			civilian={
 				large=GFX_portrait_Johan_Nygaardsvold
 			}
-		}
-		allowed_civil_war = {
-			NOR_char_cw_democratic = yes
-		}
-		country_leader={
-			ideology=socialism
-			expire="1965.1.1.1"
-			id=-1
 		}
 	}
 
@@ -33,14 +50,6 @@ characters={
 				large="gfx/leaders/NOR/Portrait_Norway_Martin_Tranmel.png"
 				small=GFX_portrait_NOR_martin_tranmael_small
 			}
-		}
-		allowed_civil_war = {
-			NOR_char_cw_democratic = yes
-		}
-		country_leader={
-			ideology=socialism
-			expire="1965.1.1.1"
-			id=-1
 		}
 		advisor={
 			slot = political_advisor
@@ -71,11 +80,6 @@ characters={
 		}
 		allowed_civil_war = {
 			NOR_char_cw_democratic = yes
-		}
-		country_leader={
-			ideology=conservatism
-			expire="1965.1.1.1"
-			id=-1
 		}
 		advisor={
 			slot = political_advisor
@@ -202,43 +206,6 @@ characters={
 			traits = { NOR_queen_of_norway }
 			id=-1
 		}
-	}	
-
-	NOR_king_haakon_vii={ # King 
-		name=NOR_king_haakon_vii
-		portraits={
-			civilian={
-				large="gfx/leaders/NOR/Portrait_Norway_Haakon_VII.png"
-			}
-		}
-		allowed_civil_war = {
-			NOR_char_cw_loyalist = yes
-		}
-		country_leader={
-			ideology=despotism
-			expire="1965.1.1.1"
-			id=-1
-		}
-		navy_leader={
-			traits={ navy_media_personality gentlemanly naval_lineage fleet_protector }
-			skill=5
-			attack_skill=2
-			defense_skill=6
-			maneuvering_skill=4
-			coordination_skill=4
-			legacy_id=-1
-			
-			visible = {
-				OR = {
-					has_completed_focus = NOR_the_kingdom_of_norway
-					has_completed_focus = NOR_preparing_the_return_to_norway
-				}
-				NOT = {
-					has_global_flag = NOR_the_norwegian_king_is_dead
-				}
-			}
-		}
-
 	}	
 
 	NOR_prince_olav={ # Prince
