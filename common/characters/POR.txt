@@ -1157,6 +1157,7 @@ characters = {
 			portraits = {
 				army = {
 					small = "GFX_idea_generic_fascist_demagogue_western_european_2d"
+					large="gfx/leaders/POR/Portrait_POR_jose_hipolito_raposo.png"
 				}
 			}
 		}
