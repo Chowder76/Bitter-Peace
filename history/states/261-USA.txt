@@ -2,6 +2,7 @@ state={
 	id=261
 	name="STATE_261"
 	resources={
+		oil = 3
 		steel=28 # was: 48.000
 		aluminium=9 # was: 16.000
 	}
@@ -21,6 +22,9 @@ state={
 		add_core_of = USA
 		victory_points = {
 			6855 15 
+		}
+		victory_points = {
+			4601 10 
 		}
 		victory_points = {
 			6890 20 
