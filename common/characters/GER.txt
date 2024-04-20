@@ -77,7 +77,36 @@ characters={
 		country_leader={
 			ideology=conservatism
 			expire="1965.1.1.1"
-			id=-1
+		}
+	}
+
+
+	GER_kurt_schumacher={
+		name=GER_kurt_schumacher
+		portraits={
+			army={
+				small="GFX_idea_kurt_schumacher"
+				large="gfx/leaders/GER/GER_kurt_schumacher.png"
+			}
+		}	
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+		}
+	}
+
+	
+	GER_theodor_heuss={
+		name=GER_theodor_heuss
+		portraits={
+			army={
+				small="GFX_idea_GER_theodor_heuss"
+				large="gfx/leaders/GER/GER_theodor_heuss.png"
+			}
+		}	
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
 		}
 	}
 
@@ -252,15 +281,7 @@ characters={
 			slot = high_command
 			idea_token = erwin_rommel
 			ledger = army
-			allowed = {
-				original_tag = GER
-			}
-			available = {
-				has_completed_focus = GER_army_innovation
-			}
-			traits = {
-				army_armored_3
-			}
+			traits = { army_armored_3 }
 			cost = 200
 			ai_will_do = {
 				factor = 8.000
@@ -1351,51 +1372,6 @@ characters={
 
 	### POLITICAL ADVISORS ###
 
-	GER_fritz_todt={
-		name=GER_fritz_todt
-		portraits={
-			army={
-				small="GFX_idea_todt"
-			}
-			
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = todt
-			allowed = {
-				original_tag = GER
-			}
-			available = {
-				has_completed_focus = GER_west_wall 
-			}
-			traits = {
-				fortification_engineer 
-			}
-			ai_will_do = {
-				factor = 0.500
-			}
-		}
-	}
-
-	GER_albert_speer={ 
-		name=GER_albert_speer
-		portraits={
-			army={
-				small="GFX_idea_speer"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = speer
-			allowed = {
-				original_tag = GER
-			}
-			traits = {
-				armaments_organizer 
-			}
-		}		
-	}
-
 	GER_hjalmar_schacht={
 		name=GER_hjalmar_schacht
 		portraits={
@@ -1406,10 +1382,7 @@ characters={
 		advisor={
 			slot = political_advisor
 			idea_token = hjalmar_schacht
-			cost = 75.000
-			allowed = {
-				original_tag = GER
-			}
+			cost = 150
 			traits = {
 				captain_of_industry 
 			}
@@ -1417,273 +1390,6 @@ characters={
 				factor = 2.000
 			}
 		}		
-	}
-
-	GER_walther_funk={
-		name=GER_walther_funk
-		portraits={
-			army={
-				small="GFX_idea_walther_funk"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = walther_funk
-			allowed = {
-				original_tag = GER
-			}
-			traits = {
-				war_industrialist 
-			}
-			ai_will_do = {
-				factor = 1.000
-			}
-		}		
-	}
-
-	GER_kurt_schumacher={
-		name=GER_kurt_schumacher
-		portraits={
-			army={
-				small="GFX_idea_kurt_schumacher"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = kurt_schumacher
-			allowed = {
-				original_tag = GER
-			}
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
-				if = {
-					limit = {
-						has_dlc = "Waking the Tiger"
-					}
-					has_completed_focus = GER_reestablish_free_elections 
-				}
-			}
-			traits = {
-				democratic_reformer 
-			}
-			do_effect = {
-				NOT = {
-					has_government = democratic 
-				}
-			}
-			ai_will_do = {
-				factor = 0.000
-			}
-		}		
-	}
-
-	GER_joseph_goebbels={
-		name=GER_joseph_goebbels
-		portraits={
-			army={
-				small="GFX_idea_joseph_goebbels"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = joseph_goebbels
-			allowed = {
-				original_tag = GER
-			}
-			available = {
-				has_government = fascism 
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
-			}
-			traits = {
-				fascist_demagogue propaganda_expert 
-			}
-			do_effect = {
-				NOT = {
-					has_government = fascism 
-				}
-			}
-			ai_will_do = {
-				factor = 24.000
-			}
-		}
-	}
-
-	GER_rudolf_hess={
-		name=GER_rudolf_hess
-		portraits={
-			army={
-				small="GFX_idea_rudolf_hess"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = rudolf_hess
-			allowed = {
-				original_tag = GER
-			}
-			available = {
-				NOT = {
-					has_country_flag = flight_of_hess 
-				}
-				OR = {
-					has_government = fascism 
-					has_country_flag = GER_reinstated_nazi_leadership 
-				}
-			}
-			traits = {
-				amateur_aviator_hess
-			}
-		}
-	}
-
-	GER_heinrich_himmler={
-		name=GER_heinrich_himmler
-		portraits={
-			army={
-				small="GFX_idea_heinrich_himmler"
-				large=GFX_portrait_GER_heinrich_himmler
-			}
-			civilian = {
-				large=GFX_portrait_GER_heinrich_himmler
-			}
-		}
-		allowed_civil_war = {
-			has_government = fascism
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = heinrich_himmler
-			allowed = {
-				original_tag = GER
-			}
-			available = {
-				OR = {
-					has_government = fascism 
-					has_country_flag = GER_reinstated_nazi_leadership 
-				}
-			}
-			on_add = {
-				custom_effect_tooltip = GER_SS_himmler_recruit
-			}
-			traits = {
-				prince_of_terror 
-			}
-		}
-	}
-
-	GER_martin_bormann={
-		name=GER_martin_bormann
-		portraits={
-			army={
-				small="GFX_idea_martin_bormann"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = martin_bormann
-			allowed = {
-				original_tag = GER
-			}
-			available = {
-				OR = {
-					has_government = fascism 
-					has_country_flag = GER_reinstated_nazi_leadership 
-				}
-			}
-			ai_will_do = {
-				factor = 30.000
-			}
-			traits = {
-				silent_workhorse 
-			}
-		}		
-	}
-
-	GER_joachim_von_ribbentrop={
-		name=GER_joachim_von_ribbentrop
-		portraits={
-			army={
-				small="GFX_idea_joachim_von_ribbentrop"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = joachim_von_ribbentrop
-			allowed = {
-				original_tag = GER
-			}
-			available = {
-				OR = {
-					has_government = fascism 
-					has_country_flag = GER_reinstated_nazi_leadership 
-				}
-			}
-			traits = {
-				backroom_backstabber 
-			}
-			ai_will_do = {
-				factor = 0.000
-			}
-		}
-	}
-
-	GER_konstantin_von_neurath={
-		name=GER_konstantin_von_neurath
-		portraits={
-			army={
-				small="GFX_idea_konstantin_von_neurath"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = konstantin_von_neurath
-			allowed = {
-				original_tag = GER
-			}
-			traits = {
-				smooth_talking_charmer 
-			}
-		}
-	}
-
-	GER_hans_oster={
-		name=GER_hans_oster
-		portraits={
-			army={
-				small="GFX_idea_GER_hans_oster"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = GER_hans_oster
-			allowed = {
-				original_tag = GER
-				has_dlc = "Waking the Tiger"
-			}
-			available = {
-				has_completed_focus = GER_oppose_hitler 
-			}
-			traits = {
-				anti_fascist_agent 
-			}
-			ai_will_do = {
-				factor = 0.000
-			}
-		}
 	}
 
 	GER_alfred_hugenberg={
@@ -1696,16 +1402,7 @@ characters={
 		advisor={
 			slot = political_advisor
 			idea_token = GER_alfred_hugenberg
-			allowed = {
-				original_tag = GER
-				has_dlc = "Waking the Tiger"
-			}
-			available = {
-				has_completed_focus = GER_revive_the_kaiserreich 
-			}
-			traits = {
-				monarchist_media_mogul 
-			}
+			traits = { connected_citizen }
 			ai_will_do = {
 				factor = 0.000
 			}
@@ -1722,72 +1419,11 @@ characters={
 		advisor={
 			slot = political_advisor
 			idea_token = GER_carl_friedrich_goerdeler
-			allowed = {
-				original_tag = GER
-				has_dlc = "Waking the Tiger"
-			}
-			available = {
-				has_completed_focus = GER_revive_the_kaiserreich 
-			}
-			traits = {
-				economist 
-			}
+			traits = { economist }
 			ai_will_do = {
 				factor = 0.000
 			}
 		}		
-	}
-	
-	GER_julius_leber={
-		name=GER_julius_leber
-		portraits={
-			army={
-				small="GFX_idea_GER_julius_leber"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = GER_julius_leber
-			allowed = {
-				original_tag = GER
-				has_dlc = "Waking the Tiger"
-			}
-			available = {
-				has_completed_focus = GER_reestablish_free_elections 
-			}
-			traits = {
-				connected_citizen 
-			}
-			ai_will_do = {
-				factor = 0.000
-			}
-		}
-	}
-	
-	GER_theodor_heuss={
-		name=GER_theodor_heuss
-		portraits={
-			army={
-				small="GFX_idea_GER_theodor_heuss"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = GER_theodor_heuss
-			allowed = {
-				original_tag = GER
-				has_dlc = "Waking the Tiger"
-			}
-			available = {
-				has_completed_focus = GER_reestablish_free_elections 
-			}
-			traits = {
-				liberal_journalist 
-			}
-			ai_will_do = {
-				factor = 0.000
-			}
-		}
 	}
 
 	GER_wilhelm_canaris={
