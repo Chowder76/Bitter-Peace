@@ -182,7 +182,7 @@ set_popularities = {
 	fascism = 3
 }
 
-create_faction = Axis
+create_faction = german_sphere
 add_to_faction = GER
 add_to_faction = GAF
 add_to_faction = BEL

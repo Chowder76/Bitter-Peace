@@ -140,6 +140,10 @@ set_popularities = {
 	fascism = 6
 }
 
+create_faction = south_pacific_alliance
+add_to_faction = AST
+add_to_faction = NZL
+
 set_convoys = 100
 
 if = {
