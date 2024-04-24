@@ -185,10 +185,16 @@ set_popularities = {
 create_faction = Axis
 add_to_faction = GER
 add_to_faction = GAF
+add_to_faction = BEL
 
 set_autonomy = {
 	target = GAF
-	autonomous_state = autonomy_integrated_puppet
+	autonomous_state = autonomy_colony
+}
+
+set_autonomy = {
+	target = GAF
+	autonomous_state = autonomy_satellite
 }
 
 
@@ -260,14 +266,12 @@ recruit_character = GER_wilhelm_canaris
 recruit_character = GER_alfred_hugenberg
 recruit_character = GER_kurt_schumacher
 recruit_character = GER_august_von_mackensen
+recruit_character = GER_carl_friedrich_goerdeler
+recruit_character = GER_fritz_thyssen
+recruit_character = GER_adolf_georg_maltzan
 
 
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}
-	recruit_character = GER_carl_friedrich_goerdeler
-}
+
 
 if = {
 	limit = {

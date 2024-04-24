@@ -1376,7 +1376,7 @@ characters={
 		name=GER_hjalmar_schacht
 		portraits={
 			army={
-				small="GFX_idea_hjalmar_schacht"
+				small="gfx/interface/advisors/GER/GER_hjalmar_schacht.png"
 			}
 		}
 		advisor={
@@ -1396,7 +1396,7 @@ characters={
 		name=GER_alfred_hugenberg
 		portraits={
 			army={
-				small="GFX_idea_GER_alfred_hugenberg"
+				small="gfx/interface/advisors/GER/GER_alfred_hugenberg.png"
 			}
 		}
 		advisor={
@@ -1413,7 +1413,7 @@ characters={
 		name=GER_carl_friedrich_goerdeler
 		portraits={
 			army={
-				small="GFX_idea_GER_carl_friedrich_goerdeler"
+				small="gfx/interface/advisors/GER/GER_carl_friedrich_goerdeler.png"
 			}
 		}
 		advisor={
@@ -1426,11 +1426,39 @@ characters={
 		}		
 	}
 
+	GER_fritz_thyssen = {
+		name = GER_fritz_thyssen
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/GER/GER_fritz_thyssen.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = GER_fritz_thyssen
+			traits = { industry_magnate }
+		}
+	}
+
+	GER_adolf_georg_maltzan = {
+		name = GER_adolf_georg_maltzan
+		portraits = {
+			army = {
+				small = "gfx/interface/advisors/GER/GER_adolf_georg_maltzan.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = GER_adolf_georg_maltzan
+			traits = { silver_tongue }
+		}
+	}
+
 	GER_wilhelm_canaris={
 		name=GER_wilhelm_canaris
 		portraits={
 			army={
-				small="GFX_idea_ger_wilhelm_canaris"
+				small="gfx/interface/advisors/GER/GER_wilhelm_canaris.png"
 			}
 		}
 		advisor={
