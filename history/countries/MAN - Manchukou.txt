@@ -8,6 +8,13 @@ set_technology = {
 	tech_trucks = 1
 }
 
+RUS = {
+	set_autonomy = {
+		target = MAN
+		autonomy_state = autonomy_satellite
+	}
+}
+
 recruit_character = MAN_aisin_gioro_puyi
 recruit_character = MAN_zhang_haipeng
 recruit_character = MAN_zhang_jinghui

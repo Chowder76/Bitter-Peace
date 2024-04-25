@@ -1,5 +1,6 @@
 name="Bitter Peace"
 replace_path="common/national_focus"
+replace_path="common/autonomous_states"
 version="1"
 tags={
 	"Alternative History"
