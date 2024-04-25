@@ -10,12 +10,13 @@ state={
 		owner = RUS
 		add_core_of = CHI
 		add_core_of = MAN
-		add_core_of = PRC
+		add_claim_by = RUS
 		victory_points = {
-			1150 1 
+			1150 15
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 3
+			dockyard = 1
 			air_base = 1
 			industrial_complex = 1
 			1150 = {

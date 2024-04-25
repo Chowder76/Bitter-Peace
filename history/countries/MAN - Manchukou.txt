@@ -1,11 +1,17 @@
-﻿capital = 328
+﻿capital = 716
 
 oob = "MAN_1936"
+starting_train_buffer = 2
 
 set_technology = {
 	infantry_weapons = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
 	gw_artillery = 1
+	interwar_antiair = 1
 	tech_trucks = 1
+	basic_train = 1
 }
 
 RUS = {
@@ -15,11 +21,10 @@ RUS = {
 	}
 }
 
-recruit_character = MAN_aisin_gioro_puyi
+recruit_character = MAN_zhang_zuolin
+recruit_character = MAN_zhang_xueliang
 recruit_character = MAN_zhang_haipeng
 recruit_character = MAN_zhang_jinghui
-recruit_character = MAN_aisin_gioro_xiqia
-recruit_character = MAN_yoshiko_kawashima
 recruit_character = MAN_zhao_shangzhi
 recruit_character = MAN_changlin_linge
 recruit_character = MAN_kyoiji_tomonaga
@@ -52,12 +57,15 @@ set_convoys = 20
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = authoritarian_democrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 80
-	fascism = 20
+	social_liberal = 14
+	social_conservative = 22
+	authoritarian_democrat = 40
+	neutrality = 24
+	fascism = 0
 }
