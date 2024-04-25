@@ -1,0 +1,759 @@
+characters={
+	SWI_federal_council={
+		name=SWI_federal_council
+		portraits={
+			civilian={
+				large="gfx/leaders/SWI/SWI_swiss_federal_council.png"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	SWI_ernest_beuin={
+		name=SWI_ernest_beuin
+		portraits={
+			civilian={
+				large=GFX_portrait_SWI_ernest_beuin
+			}
+		}
+		country_leader={
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	SWI_fritz_platten={
+		name=SWI_fritz_platten
+		portraits={
+			civilian={
+				large=GFX_portrait_SWI_fritz_platten
+			}
+		}
+		country_leader={
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	SWI_henri_guisan={
+		name=SWI_henri_guisan
+		portraits={
+			army={
+				large="gfx//leaders/SWI/SWI_henri_guisan.png"
+				small=GFX_portrait_SWI_henri_guisan_small
+			}
+		}
+		corps_commander={
+			traits={ career_officer media_personality winter_specialist trait_mountaineer }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+		advisor={
+			slot = army_chief
+			idea_token = SWI_henri_guisan
+			traits = { SWI_commander_in_chief }
+			cost = 0
+			ai_will_do = {
+				base = 500
+			}
+		}
+	}
+
+	SWI_j_d_de_montenach={
+		#BBA
+		instance = {
+			allowed = {has_dlc = "By Blood Alone"}
+			advisor={
+				slot = air_chief
+				idea_token = SWI_j_d_de_montenach
+				
+				allowed = {
+					tag = SWI
+				}
+				visible = {
+
+				}
+				available = {
+
+				}
+				
+				traits = {
+					air_chief_safety_2
+				}
+				
+				cost = 100
+				
+				ai_will_do = {
+					base = 200
+				}
+			}
+
+			name=SWI_j_d_de_montenach
+			portraits={
+				army={
+					small="GFX_idea_generic_air_europe_2"
+				}
+			}
+		}
+
+		#NO BBA
+		instance = {
+			allowed = {NOT = {has_dlc = "By Blood Alone"}}
+			advisor={
+				slot = air_chief
+				idea_token = SWI_j_d_de_montenach_2
+				allowed = {
+					tag = SWI
+				}
+				traits = {
+					air_chief_safety_2
+				}
+				cost = 100
+				ai_will_do = {
+					base = 200
+				}
+			}
+
+			name=SWI_j_d_de_montenach
+			portraits={
+				army={
+					small="GFX_idea_generic_air_europe_2"
+				}
+			}
+		}
+	}
+
+	SWI_jean_de_muralt={
+		name=SWI_jean_de_muralt
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_1"
+				large="gfx/leaders/SWI/SWI_jean_de_muralt.png"
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 2
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = high_command
+			idea_token = SWI_jean_de_muralt
+			ledger = army
+			traits = { army_artillery_2 }
+			cost = 100
+			ai_will_do = {
+				base = 200
+			}
+		}
+	}
+
+	SWI_hans_oehler={
+		advisor={
+			slot = high_command
+			idea_token = SWI_hans_oehler
+			ledger = navy
+				allowed = {
+					original_tag = SWI
+				}
+				traits = {
+					navy_capital_ship_2
+				}
+				cost = 100
+				ai_will_do = {
+					base = 200
+				}
+		}
+		name=SWI_hans_oehler
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_europe_2"
+			}
+		}
+	}
+
+	SWI_ernst_laur={
+		#BBA
+		instance = {
+			allowed = {has_dlc = "By Blood Alone"}
+			advisor={
+				slot = army_chief
+				idea_token = SWI_ernst_laur
+				allowed = {
+					original_tag = SWI
+				}
+				visible = {
+		
+				}
+				available = {
+
+				}
+				traits = {
+					army_chief_organizational_2
+				}
+				cost = 100
+				ai_will_do = {
+					base = 200
+				}
+			}
+			name=SWI_ernst_laur
+			portraits={
+				army={
+					small="GFX_idea_generic_army_europe_1"
+				}
+			}
+		}
+		#NO BBA
+		instance = {
+			allowed = {NOT = {has_dlc = "By Blood Alone"}}
+			advisor={
+				slot = army_chief
+				idea_token = SWI_ernst_laur
+				allowed = {
+						original_tag = SWI
+					}
+					traits = {
+						army_chief_organizational_2
+					}
+					cost = 100
+					ai_will_do = {
+						base = 200
+					}
+			}
+			name=SWI_ernst_laur
+			portraits={
+				army={
+					small="GFX_idea_generic_army_europe_1"
+				}
+			}
+		}
+	}
+
+	SWI_etienne_primault={
+		#BBA
+
+		instance = {
+			allowed = {has_dlc = "By Blood Alone"}
+			advisor={
+				slot = high_command
+				idea_token = SWI_etienne_primault
+				ledger = air
+				allowed = {
+					original_tag = SWI
+				}
+				visible = {
+					
+				}
+				available = {
+					
+				}
+				traits = {
+					air_air_superiority_2
+				}
+				cost = 100
+				ai_will_do = {
+					base = 100
+				}
+			}
+			name=SWI_etienne_primault
+			portraits={
+				army={
+					small="GFX_idea_generic_air_europe_2"
+				}
+			}
+		}
+		#NO BBA
+		instance = {
+			allowed = {NOT = {has_dlc = "By Blood Alone"}}
+			advisor={
+				slot = high_command
+				idea_token = SWI_etienne_primault
+				ledger = air
+					allowed = {
+						original_tag = SWI
+					}
+					traits = {
+						air_air_superiority_2
+					}
+					cost = 100
+					ai_will_do = {
+						base = 200
+					}
+			}
+			name=SWI_etienne_primault
+			portraits={
+				army={
+					small="GFX_idea_generic_air_europe_2"
+				}
+			}
+		}
+	}
+
+	SWI_hans_peter_bichsel_sohn={
+		instance = {
+			allowed = {has_dlc = "By Blood Alone"}
+			advisor={
+				slot = navy_chief
+				idea_token = SWI_hans_peter_bichsel_sohn
+				allowed = {
+					original_tag = SWI
+				}
+				visible = {
+					
+				}
+				available = {
+					
+				}
+				traits = {
+					navy_chief_decisive_battle_2
+				}
+				cost = 100
+				ai_will_do = {
+					base = 200
+				}
+			}
+			name=SWI_hans_peter_bichsel_sohn
+			portraits={
+				army={
+					small="GFX_idea_generic_navy_europe_1"
+				}
+			}
+		}
+
+		instance = {
+			allowed = {NOT = {has_dlc = "By Blood Alone"}}
+			advisor={
+				slot = navy_chief
+				idea_token = SWI_hans_peter_bichsel_sohn
+				allowed = {
+						original_tag = SWI
+					}
+					traits = {
+						navy_chief_decisive_battle_2
+					}
+					cost = 100
+					ai_will_do = {
+						base = 200
+					}
+			}
+			name=SWI_hans_peter_bichsel_sohn
+			portraits={
+				army={
+					small="GFX_idea_generic_navy_europe_1"
+				}
+			}
+		}
+	}
+
+	SWI_werner_jenni={
+		
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = SWI_werner_jenni
+			ledger = army
+				allowed = {
+					original_tag = SWI
+				}
+				
+				traits = {
+					military_theorist
+				}
+		}
+		name=SWI_werner_jenni
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_4"
+			}
+		}
+		
+	}
+
+	SWI_rene_von_graffenried={
+		instance = {
+			allowed = {has_dlc = "By Blood Alone"}
+			advisor={
+				slot = navy_chief
+				idea_token = SWI_rene_von_graffenried
+				allowed = {
+					original_tag = SWI
+				}
+				visible = {
+					
+				}
+				available = {
+					
+				}		
+				traits = {
+					navy_naval_air_defense_2
+				}
+				cost = 100
+				ai_will_do = {
+					base = 200
+				}
+			}
+			name=SWI_rene_von_graffenried
+			portraits={
+				army={
+					small="GFX_idea_generic_navy_europe_2"
+				}
+			}
+		}
+
+		#NO BBA
+		instance = {
+			allowed = {NOT = {has_dlc = "By Blood Alone"}}
+			advisor={
+				slot = navy_chief
+				idea_token = SWI_rene_von_graffenried
+				allowed = {
+						original_tag = SWI
+					}
+					traits = {
+						navy_naval_air_defense_2
+					}
+					cost = 100
+					ai_will_do = {
+						base = 200
+					}
+			}
+			name=SWI_rene_von_graffenried
+			portraits={
+				army={
+					small="GFX_idea_generic_navy_europe_2"
+				}
+			}
+		}
+
+	}
+
+	SWI_eugen_bircher={
+		name=SWI_eugen_bircher
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_2"
+				large="gfx/leaders/SWI/SWI_eugen_bircher.png"
+			}
+		}
+		corps_commander = {
+			traits = { trait_cautious hill_fighter skilled_staffer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		advisor={
+			slot = high_command
+			idea_token = SWI_eugen_bircher
+			ledger = army
+			traits = { army_armored_2 }
+			cost = 100
+			ai_will_do = {
+				base = 200
+			}
+		}
+	}
+
+	SWI_oskar_bider={
+		#BBA
+		instance = {
+			allowed = {has_dlc = "By Blood Alone"}
+
+			advisor={
+				cost = 100
+				
+				slot = theorist
+				idea_token = SWI_oskar_bider
+				visible = {
+					
+				}
+				available = {
+					
+				}
+				ledger = air
+				allowed = {
+					original_tag = SWI
+				}
+				
+				traits = {
+					air_warfare_theorist
+				}
+			}
+			name=SWI_oskar_bider
+			portraits={
+				army={
+					small="GFX_idea_generic_air_europe_1"
+				}
+			}
+		}
+
+		instance = {
+			allowed = {NOT = {has_dlc = "By Blood Alone"}}
+
+			advisor={
+				cost = 100
+				
+				slot = theorist
+				idea_token = SWI_oskar_bider
+				ledger = air
+					allowed = {
+						original_tag = SWI
+					}
+					
+					traits = {
+						air_warfare_theorist
+					}
+			}
+			name=SWI_oskar_bider
+			portraits={
+				army={
+					small="GFX_idea_generic_air_europe_1"
+				}
+			}
+		}
+	}
+
+	SWI_hermann_hessel_lorenz={
+		#BBA
+		instance = {
+			allowed = {has_dlc = "By Blood Alone"}
+			advisor={
+				slot = high_command
+				idea_token = SWI_hermann_hessel_lorenz
+				ledger = army
+				allowed = {
+					original_tag = SWI
+				}
+				visible = {
+					
+				}
+				available = {
+					
+				}
+				traits = {
+					navy_amphibious_assault_2
+				}
+				cost = 100
+				ai_will_do = {
+					base = 200
+				}
+			}
+			name=SWI_hermann_hessel_lorenz
+			portraits={
+				army={
+					small="GFX_idea_generic_navy_europe_1"
+				}
+			}
+		}
+		instance = {
+			allowed = {NOT = {has_dlc = "By Blood Alone"}}
+
+			advisor={
+				slot = high_command
+				idea_token = SWI_hermann_hessel_lorenz
+				ledger = army
+					allowed = {
+						original_tag = SWI
+					}
+					traits = {
+						navy_amphibious_assault_2
+					}
+					cost = 100
+					ai_will_do = {
+						base = 200
+					}
+			}
+			name=SWI_hermann_hessel_lorenz
+			portraits={
+				army={
+					small="GFX_idea_generic_navy_europe_1"
+				}
+			}
+		}
+	}
+
+	SWI_johann_august_sutter={
+		#BBA
+		instance = {
+			allowed = {has_dlc = "By Blood Alone"}
+			advisor={
+				slot = army_chief
+				idea_token = SWI_johann_august_sutter
+				allowed = {
+					original_tag = SWI
+				}
+				visible = {
+					
+				}
+				available = {
+					
+				}
+				traits = {
+					army_chief_defensive_2
+				}
+				cost = 100
+				ai_will_do = {
+					base = 200
+				}
+			}
+			name=SWI_johann_august_sutter
+			portraits={
+				army={
+					small="GFX_idea_generic_army_europe_5"
+				}
+			}
+		}
+
+		instance = {
+			allowed = {NOT = {has_dlc = "By Blood Alone"}}
+			advisor={
+				slot = army_chief
+				idea_token = SWI_johann_august_sutter
+				allowed = {
+						original_tag = SWI
+					}
+					traits = {
+						army_chief_defensive_2
+					}
+					cost = 100
+					ai_will_do = {
+						base = 200
+					}
+			}
+			name=SWI_johann_august_sutter
+			portraits={
+				army={
+					small="GFX_idea_generic_army_europe_5"
+				}
+			}
+		}
+	}
+	
+	SWI_carl_jacob_burckhardt={
+		instance = {
+			allowed = {has_dlc = "By Blood Alone"}
+			advisor={
+				slot = air_chief
+				idea_token = SWI_carl_jacob_burckhardt
+				allowed = {
+					original_tag = SWI
+				}
+				visible = {
+					
+				}
+				available = {
+					
+				}
+				traits = {
+					air_chief_ground_support_2
+				}
+				cost = 100
+				ai_will_do = {
+					base = 1
+				}
+			}
+			name=SWI_carl_jacob_burckhardt
+			portraits={
+				army={
+					small="GFX_idea_generic_air_europe_3"
+				}
+			}
+		}
+
+		instance = {
+			allowed = {NOT = {has_dlc = "By Blood Alone"}}
+
+			advisor={
+				slot = air_chief
+				idea_token = SWI_carl_jacob_burckhardt
+				allowed = {
+						original_tag = SWI
+					}
+					traits = {
+						air_chief_ground_support_2
+					}
+					cost = 100
+					ai_will_do = {
+						base = 200
+					}
+			}
+			name=SWI_carl_jacob_burckhardt
+			portraits={
+				army={
+					small="GFX_idea_generic_air_europe_3"
+				}
+			}
+		}
+	}
+
+	SWI_georg_von_trapp={
+		name=SWI_georg_von_trapp
+		portraits={
+			army={
+				large=GFX_portrait_SWI_georg_von_trapp 
+				small=GFX_portrait_SWI_georg_von_trapp_small 
+			}
+			navy={
+				large=GFX_portrait_SWI_georg_von_trapp 
+				small=GFX_portrait_SWI_georg_von_trapp_small 
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = SWI_georg_von_trapp
+			allowed = {
+				original_tag = SWI
+			}
+			traits = {
+				navy_chief_commerce_raiding_3
+			}
+			cost = 200
+			ai_will_do = {
+				factor = 100
+			}
+			available = {
+				hidden_trigger = { has_country_flag = SWI_von_trapp_hired }
+			}
+			visible = {
+				hidden_trigger = { has_country_flag = SWI_von_trapp_hired }
+			}
+		}		
+		navy_leader={
+			traits={ navy_career_officer seawolf }
+			skill=5
+			attack_skill=5
+			defense_skill=3
+			maneuvering_skill=3
+			coordination_skill=5
+			legacy_id=0
+
+			visible = {
+				hidden_trigger = { has_country_flag = SWI_von_trapp_hired }
+			}
+		}
+	}
+}
