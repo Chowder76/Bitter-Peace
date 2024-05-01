@@ -1196,8 +1196,8 @@ characters={
 		name=USA_robert_taft
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_europe_1"
-				large="gfx/leaders/USA/Portrait_USA_Robert_Taft.png"
+				small="gfx/interface/advisors/USA/USA_robert_taft.png"
+				large="gfx/leaders/USA/USA_robert_taft.png"
 			}
 		}
 		advisor={
@@ -1232,7 +1232,7 @@ characters={
 		name=USA_john_winant
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_europe_5"
+				small="gfx/interface/advisors/USA/USA_john_winant.png"
 				large="gfx/leaders/USA/Portrait_USA_John_Winant.png"
 			}
 		}
@@ -1325,7 +1325,7 @@ characters={
 		name=USA_william_donovan
 		portraits={
 			army={
-				small="GFX_idea_usa_william_donovan"
+				small="gfx/interface/advisors/USA/USA_william_donovan.png"
 				large="gfx/leaders/USA/Portrait_USA_William_Donovan.png"
 			}
 		}
