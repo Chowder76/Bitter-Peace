@@ -1338,9 +1338,6 @@ ideas = {
 			allowed = {
 				original_tag = USA
 			}
-			available = {
-				has_completed_focus = USA_main_battle_tanks
-			}
 
 			
 			research_bonus = {
@@ -1367,9 +1364,6 @@ ideas = {
 			picture = usa_tank_destroyer_board
 			allowed = {
 				original_tag = USA
-			}
-			available = {
-				has_completed_focus = USA_tank_destroyer_doctrine
 			}
 
 			
