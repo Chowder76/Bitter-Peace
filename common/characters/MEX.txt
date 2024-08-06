@@ -111,7 +111,7 @@ characters={
 			legacy_id=712
 		}
 		country_leader={
-			ideology=moderatism
+			ideology=socialism
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -192,14 +192,6 @@ characters={
 			ledger = army
 			allowed = {
 				original_tag = MEX
-			}
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus = MEX_focus_heroic_military_college
-				}
 			}
 			traits = {
 				superior_firepower_expert
@@ -686,13 +678,6 @@ characters={
 			slot = high_command
 			idea_token = MEX_jose_gonzalo_escobar
 			ledger = army
-			allowed = {
-				original_tag = MEX
-				has_dlc = "Man the Guns"
-			}
-			available = {
-				has_completed_focus = MEX_focus_purge_the_bureaucracy
-			}
 			traits = {
 				army_cavalry_3
 			}
@@ -743,32 +728,6 @@ characters={
 				large="GFX_portrait_MEX_vicente_lombardo" #Can become country leader (Communism -> Marxism)
 			}
 		}
-		advisor={
-			slot = political_advisor
-			idea_token = MEX_vicente_lombardo
-			allowed = {
-				original_tag = MEX
-			}
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus = MEX_focus_confederation_of_mexican_workers 
-				}
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
-			}
-			traits = {
-				ambitious_union_boss 
-			}
-		}
 	}
 
 	MEX_jose_vasconcelos={
@@ -776,32 +735,6 @@ characters={
 		portraits={
 			army={
 				small=GFX_portrait_MEX_jose_vasconcelos_small
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = MEX_jose_vasconcelos
-			allowed = {
-				original_tag = MEX
-			}
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus = MEX_focus_the_gold_shirts 
-				}
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
-			}
-			traits = {
-				syncretic_revanchist 
 			}
 		}
 	}
@@ -816,25 +749,6 @@ characters={
 		advisor={
 			slot = political_advisor
 			idea_token = MEX_bartolome_garcia_correa
-			allowed = {
-				original_tag = MEX
-			}
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus = MEX_focus_exile_calles 
-				}
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
-			}
 			traits = {
 				social_reformer 
 			}
@@ -846,32 +760,6 @@ characters={
 		portraits={
 			army={
 				small=GFX_portrait_MEX_aaron_saenz_small
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = MEX_aaron_saenz
-			allowed = {
-				original_tag = MEX
-			}
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus = MEX_focus_jefe_maximo 
-				}
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
-			}
-			traits = {
-				shadow_of_calles 
 			}
 		}
 	}
@@ -905,18 +793,7 @@ characters={
 		advisor={
 			slot = political_advisor
 			idea_token = MEX_luis_montes_de_oca
-			cost = 75.000
-			allowed = {
-				original_tag = MEX
-			}
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus = MEX_focus_liberalize_the_banking_sector 
-				}
-			}
+			cost = 150.000
 			traits = {
 				financial_expert 
 			}
@@ -934,17 +811,6 @@ characters={
 			slot = political_advisor
 			idea_token = MEX_alberto_pani
 			cost = 75.000
-			allowed = {
-				original_tag = MEX
-			}
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus = MEX_focus_agricultural_credit_bank 
-				}
-			}
 			traits = {
 				captain_of_industry 
 			}
@@ -957,25 +823,6 @@ characters={
 			army={
 				small="GFX_idea_MEX_pablo_gonzalez"
 				large = "GFX_portrait_MEX_pablo_gonzalez" #Can become unit leader
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = MEX_pablo_gonzalez
-			cost = 50.000
-			allowed = {
-				original_tag = MEX
-			}
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus = MEX_focus_triumph_over_the_cristeros 
-				}
-			}
-			traits = {
-				prince_of_terror 
 			}
 		}
 	}
